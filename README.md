@@ -20,6 +20,8 @@
 - [ ] [0002. Hello World 示例](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README.md) <!-- [locale](./notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README.md) -->  
   - [1. 📒 概述](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README.md#1--概述)
   - [2. 💻 准备必要的环境](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README.md#2--准备必要的环境)
+  - [3. 💻 安装 Egg.js 脚手架工具](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README.md#3--安装-eggjs-脚手架工具)
+  - [4. 💻 项目初始化](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README.md#4--项目初始化)
   
 
 - [x] [0003. egg-init vs. egg-bin](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md) <!-- [locale](./notes/0003.%20egg-init%20vs.%20egg-bin/README.md) -->  

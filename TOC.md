@@ -16,6 +16,8 @@
 - [ ] [0002. Hello World 示例](https://tdahuyou.github.io/TNotes.egg/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README) <!-- [locale](./notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README) -->  
   - [1. 📒 概述](https://tdahuyou.github.io/TNotes.egg/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README#1--概述)
   - [2. 💻 准备必要的环境](https://tdahuyou.github.io/TNotes.egg/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README#2--准备必要的环境)
+  - [3. 💻 安装 Egg.js 脚手架工具](https://tdahuyou.github.io/TNotes.egg/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README#3--安装-eggjs-脚手架工具)
+  - [4. 💻 项目初始化](https://tdahuyou.github.io/TNotes.egg/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README#4--项目初始化)
   
 
 - [x] [0003. egg-init vs. egg-bin](https://tdahuyou.github.io/TNotes.egg/notes/0003.%20egg-init%20vs.%20egg-bin/README) <!-- [locale](./notes/0003.%20egg-init%20vs.%20egg-bin/README) -->  
