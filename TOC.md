@@ -14,6 +14,57 @@
   
 
 - [ ] [0002. Hello World 示例](https://tdahuyou.github.io/TNotes.egg/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README) <!-- [locale](./notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README) -->  
+  - [1. 📒 概述](https://tdahuyou.github.io/TNotes.egg/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README#1--概述)
+  - [2. 💻 准备必要的环境](https://tdahuyou.github.io/TNotes.egg/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README#2--准备必要的环境)
+  
+
+- [ ] [0003. egg-init vs. egg-bin](https://tdahuyou.github.io/TNotes.egg/notes/0003.%20egg-init%20vs.%20egg-bin/README) <!-- [locale](./notes/0003.%20egg-init%20vs.%20egg-bin/README) -->  
+  - [1. 核心区别](https://tdahuyou.github.io/TNotes.egg/notes/0003.%20egg-init%20vs.%20egg-bin/README#1-核心区别)
+  
+
+- [ ] [0004. xxx](https://tdahuyou.github.io/TNotes.egg/notes/0004.%20xxx/README) <!-- [locale](./notes/0004.%20xxx/README) -->  
+  
+  
+  ##
+  
+  
+
+- [ ] [0005. xxx](https://tdahuyou.github.io/TNotes.egg/notes/0005.%20xxx/README) <!-- [locale](./notes/0005.%20xxx/README) -->  
+  
+  
+  ##
+  
+  
+
+- [ ] [0006. xxx](https://tdahuyou.github.io/TNotes.egg/notes/0006.%20xxx/README) <!-- [locale](./notes/0006.%20xxx/README) -->  
+  
+  
+  ##
+  
+  
+
+- [ ] [0007. xxx](https://tdahuyou.github.io/TNotes.egg/notes/0007.%20xxx/README) <!-- [locale](./notes/0007.%20xxx/README) -->  
+  
+  
+  ##
+  
+  
+
+- [ ] [0008. xxx](https://tdahuyou.github.io/TNotes.egg/notes/0008.%20xxx/README) <!-- [locale](./notes/0008.%20xxx/README) -->  
+  
+  
+  ##
+  
+  
+
+- [ ] [0009. xxx](https://tdahuyou.github.io/TNotes.egg/notes/0009.%20xxx/README) <!-- [locale](./notes/0009.%20xxx/README) -->  
+  
+  
+  ##
+  
+  
+
+- [ ] [0010. xxx](https://tdahuyou.github.io/TNotes.egg/notes/0010.%20xxx/README) <!-- [locale](./notes/0010.%20xxx/README) -->  
   
   
   ##

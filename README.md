@@ -18,6 +18,57 @@
   
 
 - [ ] [0002. Hello World 示例](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README.md) <!-- [locale](./notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README.md) -->  
+  - [1. 📒 概述](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README.md#1--概述)
+  - [2. 💻 准备必要的环境](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README.md#2--准备必要的环境)
+  
+
+- [ ] [0003. egg-init vs. egg-bin](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md) <!-- [locale](./notes/0003.%20egg-init%20vs.%20egg-bin/README.md) -->  
+  - [1. 核心区别](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#1-核心区别)
+  
+
+- [ ] [0004. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20xxx/README.md) <!-- [locale](./notes/0004.%20xxx/README.md) -->  
+  
+  
+  ##
+  
+  
+
+- [ ] [0005. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0005.%20xxx/README.md) <!-- [locale](./notes/0005.%20xxx/README.md) -->  
+  
+  
+  ##
+  
+  
+
+- [ ] [0006. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0006.%20xxx/README.md) <!-- [locale](./notes/0006.%20xxx/README.md) -->  
+  
+  
+  ##
+  
+  
+
+- [ ] [0007. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0007.%20xxx/README.md) <!-- [locale](./notes/0007.%20xxx/README.md) -->  
+  
+  
+  ##
+  
+  
+
+- [ ] [0008. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0008.%20xxx/README.md) <!-- [locale](./notes/0008.%20xxx/README.md) -->  
+  
+  
+  ##
+  
+  
+
+- [ ] [0009. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0009.%20xxx/README.md) <!-- [locale](./notes/0009.%20xxx/README.md) -->  
+  
+  
+  ##
+  
+  
+
+- [ ] [0010. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0010.%20xxx/README.md) <!-- [locale](./notes/0010.%20xxx/README.md) -->  
   
   
   ##
