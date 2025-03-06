@@ -18,7 +18,8 @@
   - [2. 💻 准备必要的环境](https://tdahuyou.github.io/TNotes.egg/notes/0002.%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README#2--准备必要的环境)
   
 
-- [ ] [0003. egg-init vs. egg-bin](https://tdahuyou.github.io/TNotes.egg/notes/0003.%20egg-init%20vs.%20egg-bin/README) <!-- [locale](./notes/0003.%20egg-init%20vs.%20egg-bin/README) -->  
+- [x] [0003. egg-init vs. egg-bin](https://tdahuyou.github.io/TNotes.egg/notes/0003.%20egg-init%20vs.%20egg-bin/README) <!-- [locale](./notes/0003.%20egg-init%20vs.%20egg-bin/README) -->  
+  
   - [1. 核心区别](https://tdahuyou.github.io/TNotes.egg/notes/0003.%20egg-init%20vs.%20egg-bin/README#1-核心区别)
   - [2. egg-init](https://tdahuyou.github.io/TNotes.egg/notes/0003.%20egg-init%20vs.%20egg-bin/README#2-egg-init)
     - [2.1. 功能](https://tdahuyou.github.io/TNotes.egg/notes/0003.%20egg-init%20vs.%20egg-bin/README#21-功能)
