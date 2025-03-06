@@ -23,20 +23,20 @@
   
 
 - [x] [0003. egg-init vs. egg-bin](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md) <!-- [locale](./notes/0003.%20egg-init%20vs.%20egg-bin/README.md) -->  
-  
-  - [1. 核心区别](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#1-核心区别)
-  - [2. egg-init](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#2-egg-init)
-    - [2.1. 功能](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#21-功能)
-    - [2.2. 主要用途](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#22-主要用途)
-    - [2.3. 安装方式](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#23-安装方式)
-    - [2.4. 使用示例](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#24-使用示例)
-    - [2.5. 适用场景](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#25-适用场景)
-  - [3. egg-bin](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#3-egg-bin)
+  - [1. 🔗 egg-init、egg-bin 的 Github 仓库链接](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#1--egg-initegg-bin-的-github-仓库链接)
+  - [2. 核心区别](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#2-核心区别)
+  - [3. egg-init](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#3-egg-init)
     - [3.1. 功能](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#31-功能)
     - [3.2. 主要用途](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#32-主要用途)
     - [3.3. 安装方式](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#33-安装方式)
     - [3.4. 使用示例](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#34-使用示例)
     - [3.5. 适用场景](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#35-适用场景)
+  - [4. egg-bin](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#4-egg-bin)
+    - [4.1. 功能](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#41-功能)
+    - [4.2. 主要用途](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#42-主要用途)
+    - [4.3. 安装方式](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#43-安装方式)
+    - [4.4. 使用示例](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#44-使用示例)
+    - [4.5. 适用场景](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#45-适用场景)
   
 
 - [ ] [0004. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20xxx/README.md) <!-- [locale](./notes/0004.%20xxx/README.md) -->  
