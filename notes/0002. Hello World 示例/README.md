@@ -42,11 +42,11 @@ egg-init --version
 
 ## 4. 💻 项目初始化
 
-- 使用 `egg-init` 创建一个新的 Egg.js 项目。假设项目名称为 `helloWord`：
+- 使用 `egg-init` 创建一个新的 Egg.js 项目。假设项目名称为 `helloWorld`：
 
 ```bash {2,11,12,16}
-# 使用 egg-init 创建一个新的 Egg.js 项目，目名称为 helloWord。
-egg-init helloWord --type=simple
+# 使用 egg-init 创建一个新的 Egg.js 项目，目名称为 helloWorld。
+egg-init helloWorld --type=simple
 # 执行后一路回车。
 
 
@@ -55,7 +55,7 @@ egg-init helloWord --type=simple
 
 
 # 切换到项目目录，并安装依赖。
-cd helloWord
+cd helloWorld
 npm i
 
 
@@ -67,3 +67,8 @@ npm run dev
 # 此时，你可以打开浏览器访问 http://127.0.0.1:7001，默认会看到一个欢迎页面。
 ```
 
+- ⚠️ 安装依赖报错：
+  - 如果在 npm i 安装依赖的过程中出现了类似下面这样的错误：
+  - ![](assets/2025-03-07-13-56-39.png)
+  - 很可能是因为路径问题导致的，应尽量使用 纯英文路径 ，避免中文、空格和特殊字符。
+  - 如果是 Windows 环境的话，还得注意路径不能太长。
