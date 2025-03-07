@@ -33,12 +33,10 @@
   
 
 - [ ] [0004. egg-init](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md) <!-- [locale](./notes/0004.%20egg-init/README.md) -->  
-  - [1. 🔗 egg-init 的 Github 仓库链接](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#1--egg-init-的-github-仓库链接)
-  - [2. 📒 功能](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#2--功能)
-  - [3. 📒 主要用途](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#3--主要用途)
-  - [4. 📒 安装方式](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#4--安装方式)
-  - [5. 📒 使用示例](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#5--使用示例)
-  - [6. 📒 适用场景](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#6--适用场景)
+  - [1. 🔗 `egg-init` 的 Github 仓库链接](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#1--egg-init-的-github-仓库链接)
+  - [2. 📒 `egg-init` 概述](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#2--egg-init-概述)
+  - [3. 💻 `egg-init --help`](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#3--egg-init---help)
+  - [4. 📒 boilerplate （样板项目）](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#4--boilerplate-样板项目)
   
 
 - [ ] [0005. egg-bin](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0005.%20egg-bin/README.md) <!-- [locale](./notes/0005.%20egg-bin/README.md) -->  
