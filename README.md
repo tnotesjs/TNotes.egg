@@ -32,7 +32,7 @@
   - [2. 📒 对比 `egg-init` 和 `egg-bin`](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#2--对比-egg-init-和-egg-bin)
   
 
-- [ ] [0004. egg-init](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md) <!-- [locale](./notes/0004.%20egg-init/README.md) -->  
+- [x] [0004. egg-init](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md) <!-- [locale](./notes/0004.%20egg-init/README.md) -->  
   - [1. 🔗 `egg-init` 的 Github 仓库链接](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#1--egg-init-的-github-仓库链接)
   - [2. 📒 `egg-init` 概述](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#2--egg-init-概述)
   - [3. 📒 boilerplate 样板项目](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#3--boilerplate-样板项目)
