@@ -35,8 +35,8 @@
 - [ ] [0004. egg-init](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md) <!-- [locale](./notes/0004.%20egg-init/README.md) -->  
   - [1. 🔗 `egg-init` 的 Github 仓库链接](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#1--egg-init-的-github-仓库链接)
   - [2. 📒 `egg-init` 概述](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#2--egg-init-概述)
-  - [3. 💻 `egg-init --help`](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#3--egg-init---help)
-  - [4. 📒 boilerplate （样板项目）](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#4--boilerplate-样板项目)
+  - [3. 📒 boilerplate 样板项目](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#3--boilerplate-样板项目)
+  - [4. 📒 `npm init egg` vs. `egg-init`](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#4--npm-init-egg-vs-egg-init)
   
 
 - [ ] [0005. egg-bin](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0005.%20egg-bin/README.md) <!-- [locale](./notes/0005.%20egg-bin/README.md) -->  
