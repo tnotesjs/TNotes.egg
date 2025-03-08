@@ -35,10 +35,9 @@
   - [4. 📒 `npm init egg` vs. `egg-init`](https://tdahuyou.github.io/TNotes.egg/notes/0004.%20egg-init%20%E7%AE%80%E4%BB%8B/README#4--npm-init-egg-vs-egg-init)
   
 
-- [ ] [0005. egg-bin 简介](https://tdahuyou.github.io/TNotes.egg/notes/0005.%20egg-bin%20%E7%AE%80%E4%BB%8B/README) <!-- [locale](./notes/0005.%20egg-bin%20%E7%AE%80%E4%BB%8B/README) -->  
+- [x] [0005. egg-bin 简介](https://tdahuyou.github.io/TNotes.egg/notes/0005.%20egg-bin%20%E7%AE%80%E4%BB%8B/README) <!-- [locale](./notes/0005.%20egg-bin%20%E7%AE%80%E4%BB%8B/README) -->  
   - [1. 🔗 egg-bin 的 Github 仓库链接](https://tdahuyou.github.io/TNotes.egg/notes/0005.%20egg-bin%20%E7%AE%80%E4%BB%8B/README#1--egg-bin-的-github-仓库链接)
   - [2. 📒 `egg-bin` 概述](https://tdahuyou.github.io/TNotes.egg/notes/0005.%20egg-bin%20%E7%AE%80%E4%BB%8B/README#2--egg-bin-概述)
-  - [3. 📒 4.5. 适用场景](https://tdahuyou.github.io/TNotes.egg/notes/0005.%20egg-bin%20%E7%AE%80%E4%BB%8B/README#3--45-适用场景)
   
 
 - [ ] [0006. xxx](https://tdahuyou.github.io/TNotes.egg/notes/0006.%20xxx/README) <!-- [locale](./notes/0006.%20xxx/README) -->  

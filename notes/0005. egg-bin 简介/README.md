@@ -3,7 +3,6 @@
 <!-- region:toc -->
 - [1. 🔗 egg-bin 的 Github 仓库链接](#1--egg-bin-的-github-仓库链接)
 - [2. 📒 `egg-bin` 概述](#2--egg-bin-概述)
-- [3. 📒 4.5. 适用场景](#3--45-适用场景)
 <!-- endregion:toc -->
 
 ## 1. 🔗 egg-bin 的 Github 仓库链接
@@ -17,8 +16,8 @@
 - **主要用途**
   - 启动开发服务器（支持热更新）。
   - 运行单元测试和覆盖率分析。
-  - 调试应用（支持断点调试）。
-  - 执行自定义脚本。
+- **适用场景**
+  - 需要在开发环境中快速验证功能。
 - **安装和基本使用**
   - `egg-bin` 通常作为项目的开发依赖安装，而不是全局工具。
   - 在使用 `egg-init` 创建项目时，`egg-bin` 会自动被添加到 `devDependencies` 中。
@@ -30,7 +29,7 @@
 npm install egg-bin --save-dev
 ```
 
-```json [package.json]
+```json{25,27-28} [package.json]
 {
   "name": "helloWorld",
   "version": "1.0.0",
@@ -72,21 +71,14 @@ npm install egg-bin --save-dev
 ```
 
 ```bash [命令解释]
-# 启动 - 启动开发服务器。（支持热更新）
+# 启动 - 启动开发服务器，支持热更新。（最常用的命令之一）
 npm run dev
 
 # 测试 - 运行单测
-npm run test
+npm run test:local
 
 # 报告 - 运行测试并生成覆盖率报告。
 npm run cov
 ```
 
 ::: code-group
-
-## 3. 📒 4.5. 适用场景
-
-- 本地开发和调试。
-- 编写和运行单元测试。
-- 分析代码覆盖率。
-- 需要在开发环境中快速验证功能。
