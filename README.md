@@ -32,20 +32,17 @@
   - [2. 📒 对比 `egg-init` 和 `egg-bin`](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin/README.md#2--对比-egg-init-和-egg-bin)
   
 
-- [x] [0004. egg-init](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md) <!-- [locale](./notes/0004.%20egg-init/README.md) -->  
-  - [1. 🔗 `egg-init` 的 Github 仓库链接](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#1--egg-init-的-github-仓库链接)
-  - [2. 📒 `egg-init` 概述](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#2--egg-init-概述)
-  - [3. 📒 boilerplate 样板项目](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#3--boilerplate-样板项目)
-  - [4. 📒 `npm init egg` vs. `egg-init`](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init/README.md#4--npm-init-egg-vs-egg-init)
+- [x] [0004. egg-init 简介](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init%20%E7%AE%80%E4%BB%8B/README.md) <!-- [locale](./notes/0004.%20egg-init%20%E7%AE%80%E4%BB%8B/README.md) -->  
+  - [1. 🔗 `egg-init` 的 Github 仓库链接](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init%20%E7%AE%80%E4%BB%8B/README.md#1--egg-init-的-github-仓库链接)
+  - [2. 📒 `egg-init` 概述](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init%20%E7%AE%80%E4%BB%8B/README.md#2--egg-init-概述)
+  - [3. 📒 boilerplate 样板项目](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init%20%E7%AE%80%E4%BB%8B/README.md#3--boilerplate-样板项目)
+  - [4. 📒 `npm init egg` vs. `egg-init`](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0004.%20egg-init%20%E7%AE%80%E4%BB%8B/README.md#4--npm-init-egg-vs-egg-init)
   
 
-- [ ] [0005. egg-bin](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0005.%20egg-bin/README.md) <!-- [locale](./notes/0005.%20egg-bin/README.md) -->  
-  - [1. 🔗 egg-bin 的 Github 仓库链接](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0005.%20egg-bin/README.md#1--egg-bin-的-github-仓库链接)
-  - [2. 📒 4.1. 功能](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0005.%20egg-bin/README.md#2--41-功能)
-  - [3. 📒 4.2. 主要用途](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0005.%20egg-bin/README.md#3--42-主要用途)
-  - [4. 📒 4.3. 安装方式](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0005.%20egg-bin/README.md#4--43-安装方式)
-  - [5. 📒 4.4. 使用示例](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0005.%20egg-bin/README.md#5--44-使用示例)
-  - [6. 📒 4.5. 适用场景](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0005.%20egg-bin/README.md#6--45-适用场景)
+- [ ] [0005. egg-bin 简介](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0005.%20egg-bin%20%E7%AE%80%E4%BB%8B/README.md) <!-- [locale](./notes/0005.%20egg-bin%20%E7%AE%80%E4%BB%8B/README.md) -->  
+  - [1. 🔗 egg-bin 的 Github 仓库链接](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0005.%20egg-bin%20%E7%AE%80%E4%BB%8B/README.md#1--egg-bin-的-github-仓库链接)
+  - [2. 📒 `egg-bin` 概述](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0005.%20egg-bin%20%E7%AE%80%E4%BB%8B/README.md#2--egg-bin-概述)
+  - [3. 📒 4.5. 适用场景](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0005.%20egg-bin%20%E7%AE%80%E4%BB%8B/README.md#3--45-适用场景)
   
 
 - [ ] [0006. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0006.%20xxx/README.md) <!-- [locale](./notes/0006.%20xxx/README.md) -->  
