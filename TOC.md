@@ -56,8 +56,8 @@
   - [1. 📒 快速了解 Egg.js 基本目录结构](https://tdahuyou.github.io/TNotes.egg/notes/0008.%20%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/README#1--快速了解-eggjs-基本目录结构)
   
 
-- [ ] [0009. xxx](https://tdahuyou.github.io/TNotes.egg/notes/0009.%20xxx/README) <!-- [locale](./notes/0009.%20xxx/README) -->  
-  - [1. 📒 title](https://tdahuyou.github.io/TNotes.egg/notes/0009.%20xxx/README#1--title)
+- [x] [0009. 在 Controller 中获取上下文对象的两种方式](https://tdahuyou.github.io/TNotes.egg/notes/0009.%20%E5%9C%A8%20Controller%20%E4%B8%AD%E8%8E%B7%E5%8F%96%E4%B8%8A%E4%B8%8B%E6%96%87%E5%AF%B9%E8%B1%A1%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F/README) <!-- [locale](./notes/0009.%20%E5%9C%A8%20Controller%20%E4%B8%AD%E8%8E%B7%E5%8F%96%E4%B8%8A%E4%B8%8B%E6%96%87%E5%AF%B9%E8%B1%A1%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F/README) -->  
+  - [1. 💻 demos.1 - 在 Controller 中获取上下文对象的两种方式](https://tdahuyou.github.io/TNotes.egg/notes/0009.%20%E5%9C%A8%20Controller%20%E4%B8%AD%E8%8E%B7%E5%8F%96%E4%B8%8A%E4%B8%8B%E6%96%87%E5%AF%B9%E8%B1%A1%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F/README#1--demos1---在-controller-中获取上下文对象的两种方式)
   
 
 - [ ] [0010. xxx](https://tdahuyou.github.io/TNotes.egg/notes/0010.%20xxx/README) <!-- [locale](./notes/0010.%20xxx/README) -->  
