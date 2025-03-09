@@ -60,26 +60,27 @@
   - [1. 💻 demos.1 - 在 Controller 中获取上下文对象的两种方式](https://tdahuyou.github.io/TNotes.egg/notes/0009.%20%E5%9C%A8%20Controller%20%E4%B8%AD%E8%8E%B7%E5%8F%96%E4%B8%8A%E4%B8%8B%E6%96%87%E5%AF%B9%E8%B1%A1%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F/README#1--demos1---在-controller-中获取上下文对象的两种方式)
   
 
-- [ ] [0010. egg-static](https://tdahuyou.github.io/TNotes.egg/notes/0010.%20egg-static/README) <!-- [locale](./notes/0010.%20egg-static/README) -->  
+- [x] [0010. egg-static](https://tdahuyou.github.io/TNotes.egg/notes/0010.%20egg-static/README) <!-- [locale](./notes/0010.%20egg-static/README) -->  
   - [1. 🔗 `egg-static` github](https://tdahuyou.github.io/TNotes.egg/notes/0010.%20egg-static/README#1--egg-static-github)
   - [2. 🤔 为什么 Egg.js 能够映射静态资源？](https://tdahuyou.github.io/TNotes.egg/notes/0010.%20egg-static/README#2--为什么-eggjs-能够映射静态资源)
   - [3. 📒 `egg-static` 简介](https://tdahuyou.github.io/TNotes.egg/notes/0010.%20egg-static/README#3--egg-static-简介)
   - [4. 📒 `egg-static` 核心功能](https://tdahuyou.github.io/TNotes.egg/notes/0010.%20egg-static/README#4--egg-static-核心功能)
+  - [5. 📒 `egg-static` 工作原理简介](https://tdahuyou.github.io/TNotes.egg/notes/0010.%20egg-static/README#5--egg-static-工作原理简介)
+  - [6. 📒 使用 `egg-static` 的一些注意事项](https://tdahuyou.github.io/TNotes.egg/notes/0010.%20egg-static/README#6--使用-egg-static-的一些注意事项)
+  - [7. 💻 demos.1 - `egg-static` 的基本使用](https://tdahuyou.github.io/TNotes.egg/notes/0010.%20egg-static/README#7--demos1---egg-static-的基本使用)
   
 
-- [ ] [0011. egg 插件列表](https://tdahuyou.github.io/TNotes.egg/notes/0011.%20egg%20%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8/README) <!-- [locale](./notes/0011.%20egg%20%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8/README) -->  
+- [x] [0011. egg 插件列表](https://tdahuyou.github.io/TNotes.egg/notes/0011.%20egg%20%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8/README) <!-- [locale](./notes/0011.%20egg%20%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8/README) -->  
   - [1. 🔗 Egg.js 插件列表](https://tdahuyou.github.io/TNotes.egg/notes/0011.%20egg%20%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8/README#1--eggjs-插件列表)
   - [2. 📒 Egg.js 插件命名规范](https://tdahuyou.github.io/TNotes.egg/notes/0011.%20egg%20%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8/README#2--eggjs-插件命名规范)
   
 
-- [ ] [0012. 插件的启用](https://tdahuyou.github.io/TNotes.egg/notes/0012.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E5%90%AF%E7%94%A8/README) <!-- [locale](./notes/0012.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E5%90%AF%E7%94%A8/README) -->  
+- [x] [0012. 插件的启用](https://tdahuyou.github.io/TNotes.egg/notes/0012.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E5%90%AF%E7%94%A8/README) <!-- [locale](./notes/0012.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E5%90%AF%E7%94%A8/README) -->  
   - [1. 📒 插件的启用说明](https://tdahuyou.github.io/TNotes.egg/notes/0012.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E5%90%AF%E7%94%A8/README#1--插件的启用说明)
-  - [2. 📒 `config/plugin.js` 配置的基本格式](https://tdahuyou.github.io/TNotes.egg/notes/0012.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E5%90%AF%E7%94%A8/README#2--configpluginjs-配置的基本格式)
-  - [3. 💻 `egg-static` 的启用和禁用](https://tdahuyou.github.io/TNotes.egg/notes/0012.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E5%90%AF%E7%94%A8/README#3--egg-static-的启用和禁用)
   
 
-- [ ] [0013. 插件的配置](https://tdahuyou.github.io/TNotes.egg/notes/0013.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/README) <!-- [locale](./notes/0013.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/README) -->  
-  - [1. 📒 title](https://tdahuyou.github.io/TNotes.egg/notes/0013.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/README#1--title)
+- [x] [0013. 插件的配置](https://tdahuyou.github.io/TNotes.egg/notes/0013.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/README) <!-- [locale](./notes/0013.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/README) -->  
+  - [1. 📒 插件的配置说明](https://tdahuyou.github.io/TNotes.egg/notes/0013.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/README#1--插件的配置说明)
   
 
 - [ ] [0014. xxx](https://tdahuyou.github.io/TNotes.egg/notes/0014.%20xxx/README) <!-- [locale](./notes/0014.%20xxx/README) -->  

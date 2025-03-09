@@ -2,19 +2,14 @@
 
 <!-- region:toc -->
 - [1. 📒 插件的启用说明](#1--插件的启用说明)
-- [2. 📒 `config/plugin.js` 配置的基本格式](#2--configpluginjs-配置的基本格式)
-- [3. 💻 `egg-static` 的启用和禁用](#3--egg-static-的启用和禁用)
 <!-- endregion:toc -->
 
 ## 1. 📒 插件的启用说明
 
-一个插件是否启用，需要分不同的情况来看：
-
-- 如果是内置插件， 大部分都是默认启用的，比如 `egg-static`。
-- 如果是手动安装的第三方插件，默认是没有启用的，需要在 `config/plugin.js` 中进行配置，启用插件。
-
-
-## 2. 📒 `config/plugin.js` 配置的基本格式
+- 一个插件是否启用，需要分不同的情况来看：
+  - 如果是内置插件， 大部分都是默认启用的，比如 `egg-static`。
+  - 如果是手动安装的第三方插件，默认是没有启用的，需要在 `config/plugin.js` 中进行配置，启用插件。
+- **`config/plugin.js` 配置的基本格式**
 
 ::: code-group
 
@@ -22,7 +17,7 @@
 module.exports = {
   <插件名称>: {
     enable: <是否启用>,
-    package: <插件在 node_modules 中的包名>,
+    package: <插件在node_modules中的包名>,
   }
 }
 ```
@@ -48,7 +43,7 @@ module.exports = {
 - 对于插件的配置需要在 `config/config.default.js` 中完成。
 :::
 
-## 3. 💻 `egg-static` 的启用和禁用
+- **示例 - 配置 `egg-static` 的启用和禁用**
 
 ::: code-group
 
