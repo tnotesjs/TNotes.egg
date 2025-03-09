@@ -65,6 +65,52 @@
   - [1. 💻 demos.1 - 在 Controller 中获取上下文对象的两种方式](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0009.%20%E5%9C%A8%20Controller%20%E4%B8%AD%E8%8E%B7%E5%8F%96%E4%B8%8A%E4%B8%8B%E6%96%87%E5%AF%B9%E8%B1%A1%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F/README.md#1--demos1---在-controller-中获取上下文对象的两种方式)
   
 
-- [ ] [0010. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0010.%20xxx/README.md) <!-- [locale](./notes/0010.%20xxx/README.md) -->  
-  - [1. 📒 title](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0010.%20xxx/README.md#1--title)
+- [ ] [0010. egg-static](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0010.%20egg-static/README.md) <!-- [locale](./notes/0010.%20egg-static/README.md) -->  
+  - [1. 🔗 `egg-static` github](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0010.%20egg-static/README.md#1--egg-static-github)
+  - [2. 🤔 为什么 Egg.js 能够映射静态资源？](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0010.%20egg-static/README.md#2--为什么-eggjs-能够映射静态资源)
+  - [3. 📒 `egg-static` 简介](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0010.%20egg-static/README.md#3--egg-static-简介)
+  - [4. 📒 `egg-static` 核心功能](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0010.%20egg-static/README.md#4--egg-static-核心功能)
+  
+
+- [ ] [0011. egg 插件列表](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0011.%20egg%20%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8/README.md) <!-- [locale](./notes/0011.%20egg%20%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8/README.md) -->  
+  - [1. 🔗 Egg.js 插件列表](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0011.%20egg%20%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8/README.md#1--eggjs-插件列表)
+  - [2. 📒 Egg.js 插件命名规范](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0011.%20egg%20%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8/README.md#2--eggjs-插件命名规范)
+  
+
+- [ ] [0012. 插件的启用](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0012.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E5%90%AF%E7%94%A8/README.md) <!-- [locale](./notes/0012.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E5%90%AF%E7%94%A8/README.md) -->  
+  - [1. 📒 插件的启用说明](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0012.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E5%90%AF%E7%94%A8/README.md#1--插件的启用说明)
+  - [2. 📒 `config/plugin.js` 配置的基本格式](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0012.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E5%90%AF%E7%94%A8/README.md#2--configpluginjs-配置的基本格式)
+  - [3. 💻 `egg-static` 的启用和禁用](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0012.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E5%90%AF%E7%94%A8/README.md#3--egg-static-的启用和禁用)
+  
+
+- [ ] [0013. 插件的配置](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0013.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/README.md) <!-- [locale](./notes/0013.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/README.md) -->  
+  - [1. 📒 title](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0013.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/README.md#1--title)
+  
+
+- [ ] [0014. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0014.%20xxx/README.md) <!-- [locale](./notes/0014.%20xxx/README.md) -->  
+  - [1. 📒 title](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0014.%20xxx/README.md#1--title)
+  
+
+- [ ] [0015. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20xxx/README.md) <!-- [locale](./notes/0015.%20xxx/README.md) -->  
+  - [1. 📒 title](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20xxx/README.md#1--title)
+  
+
+- [ ] [0016. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0016.%20xxx/README.md) <!-- [locale](./notes/0016.%20xxx/README.md) -->  
+  - [1. 📒 title](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0016.%20xxx/README.md#1--title)
+  
+
+- [ ] [0017. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0017.%20xxx/README.md) <!-- [locale](./notes/0017.%20xxx/README.md) -->  
+  - [1. 📒 title](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0017.%20xxx/README.md#1--title)
+  
+
+- [ ] [0018. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0018.%20xxx/README.md) <!-- [locale](./notes/0018.%20xxx/README.md) -->  
+  - [1. 📒 title](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0018.%20xxx/README.md#1--title)
+  
+
+- [ ] [0019. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0019.%20xxx/README.md) <!-- [locale](./notes/0019.%20xxx/README.md) -->  
+  - [1. 📒 title](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0019.%20xxx/README.md#1--title)
+  
+
+- [ ] [0020. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0020.%20xxx/README.md) <!-- [locale](./notes/0020.%20xxx/README.md) -->  
+  - [1. 📒 title](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0020.%20xxx/README.md#1--title)
   

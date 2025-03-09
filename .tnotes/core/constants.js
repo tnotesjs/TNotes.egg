@@ -54,7 +54,7 @@ export const NEW_NOTES_README_MD_TEMPLATE = `
 <!-- region:toc -->
 <!-- endregion:toc -->
 
-##
+## 📒 title
 
 `
 

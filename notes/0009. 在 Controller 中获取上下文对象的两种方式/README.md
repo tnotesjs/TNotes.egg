@@ -11,7 +11,7 @@
 
 ::: code-group
 
-```js [app/controller/home.js]
+```js{5} [app/controller/home.js]
 const { Controller } = require('egg')
 
 class HomeController extends Controller {
@@ -24,4 +24,21 @@ class HomeController extends Controller {
 module.exports = HomeController
 ```
 
+```js{5} [常见写法]
+const { Controller } = require('egg')
+
+class HomeController extends Controller {
+  async index() {
+    const { ctx } = this
+    this.ctx.body = 'hi, egg'
+  }
+}
+
+module.exports = HomeController
+```
+
 :::
+
+- **推荐 `this.ctx`**
+  - 上述两种方式获取到的上下文对象是一样的，从官方文档中提供的示例来看，通过 `this.ctx` 获取上下文对象是更加常见的写法。
+  - 在每个 Action 的第一行就是 `const { ctx } = this`，将上下文对象从 `this` 中解构出来。
