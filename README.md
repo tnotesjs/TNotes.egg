@@ -88,8 +88,10 @@
   - [1. 📒 插件的配置说明](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0013.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/README.md#1--插件的配置说明)
   
 
-- [ ] [0014. 中间件](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0014.%20%E4%B8%AD%E9%97%B4%E4%BB%B6/README.md) <!-- [locale](./notes/0014.%20%E4%B8%AD%E9%97%B4%E4%BB%B6/README.md) -->  
+- [x] [0014. 中间件](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0014.%20%E4%B8%AD%E9%97%B4%E4%BB%B6/README.md) <!-- [locale](./notes/0014.%20%E4%B8%AD%E9%97%B4%E4%BB%B6/README.md) -->  
   - [1. 📒 中间件概述](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0014.%20%E4%B8%AD%E9%97%B4%E4%BB%B6/README.md#1--中间件概述)
+  - [2. 💻 demos.1 - 认识默认的内置中间件](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0014.%20%E4%B8%AD%E9%97%B4%E4%BB%B6/README.md#2--demos1---认识默认的内置中间件)
+  - [3. 💻 demos.2 - 🧅 洋葱模型 - 理解中间件的执行顺序](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0014.%20%E4%B8%AD%E9%97%B4%E4%BB%B6/README.md#3--demos2----洋葱模型---理解中间件的执行顺序)
   
 
 - [ ] [0015. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20xxx/README.md) <!-- [locale](./notes/0015.%20xxx/README.md) -->  

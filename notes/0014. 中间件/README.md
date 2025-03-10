@@ -2,6 +2,8 @@
 
 <!-- region:toc -->
 - [1. 📒 中间件概述](#1--中间件概述)
+- [2. 💻 demos.1 - 认识默认的内置中间件](#2--demos1---认识默认的内置中间件)
+- [3. 💻 demos.2 - 🧅 洋葱模型 - 理解中间件的执行顺序](#3--demos2----洋葱模型---理解中间件的执行顺序)
 <!-- endregion:toc -->
 
 ## 1. 📒 中间件概述
@@ -101,3 +103,199 @@ module.exports = (app) => {
   - egg 提供了一些内置的中间件，可通过 `app.config.coreMiddlewares` 查看。
   - 这些内置中间件将会和自定义的中间件配置合并，最终形成一个真正的中间件函数数组：`app.middleware`。
     - 最终起作用的是该数组中的一个个中间件函数。
+
+## 2. 💻 demos.1 - 认识默认的内置中间件
+
+- **打印默认的内置中间件**
+- 使用 `npm init egg` 快速初始化一个 `simple` Egg.js 工程，然后在 `app/controller/home.js` 中打印一下 `app.config.coreMiddlewares` 查看 Egg.js 默认的内置中间件都有哪些。
+
+```js [app/controller/home.js]
+const { Controller } = require('egg')
+
+class HomeController extends Controller {
+  async index() {
+    const { ctx, app } = this
+    console.log(
+      '内置中间件 - app.config.coreMiddlewares',
+      app.config.coreMiddlewares
+    )
+    // output:
+    // 内置中间件 - app.config.coreMiddlewares [
+    //   'meta',
+    //   'siteFile',
+    //   'notfound',
+    //   'static',
+    //   'bodyParser',
+    //   'overrideMethod',
+    //   'session',
+    //   'securities',
+    //   'i18n',
+    //   'eggLoaderTrace'
+    // ]
+    ctx.body = 'hi, egg'
+  }
+}
+
+module.exports = HomeController
+```
+
+| 中间件名称       | 作用描述                                                                                   |
+|------------------|------------------------------------------------------------------------------------------|
+| `meta`           | 提供性能监控功能，记录请求耗时等元信息。                                                   |
+| `siteFile`       | 处理静态站点文件（如 `favicon.ico`），支持自定义静态资源路径。                               |
+| `notfound`       | 处理未匹配到路由的请求，返回 `404` 响应。                                                   |
+| `static`         | 提供静态资源服务，用于托管项目中的静态文件（如图片、CSS、JS）。                            |
+| `bodyParser`     | 解析 HTTP 请求体，支持 JSON、表单数据等格式，将解析结果挂载到 `ctx.request.body`。         |
+| `overrideMethod` | 支持通过请求头或参数覆盖 HTTP 方法（如将 POST 请求模拟为 DELETE 或 PUT）。                |
+| `session`        | 提供会话管理功能，基于 Cookie 实现用户会话状态的存储与读取。                               |
+| `securities`     | 提供安全防护功能，包括 CSRF 防护、XSS 防护、HSTS 等常见安全策略。                          |
+| `i18n`           | 提供国际化支持，允许根据请求的语言偏好返回多语言内容。                                     |
+| `eggLoaderTrace` | 用于调试和追踪 Egg.js 加载器的行为，记录加载过程中的详细信息，便于排查问题。               |
+
+- 这些中间件共同构成了 Egg.js 的基础功能框架，满足了大多数 Web 应用的通用需求。
+- 这些内置中间件按照数组顺序依次执行，确保功能的正确性和依赖关系，顺序不能随意更改。
+- 我们可以通过配置文件 `config/config.default.js` 调整或禁用部分中间件。
+
+## 3. 💻 demos.2 - 🧅 洋葱模型 - 理解中间件的执行顺序
+
+::: code-group
+
+```js [app/middleware/a_mid.js]
+module.exports = (options, app) => {
+  return async (ctx, next) => {
+    console.log('A: 请求开始')
+    await next() // 等待后续中间件执行
+    console.log('A: 响应结束')
+  }
+}
+```
+
+```js [app/middleware/b_mid.js]
+module.exports = (options, app) => {
+  return async (ctx, next) => {
+    console.log('B: 请求开始')
+    await next() // 等待后续中间件执行
+    console.log('B: 响应结束')
+  }
+}
+```
+
+```js [app/middleware/b_mid.js]
+module.exports = (options, app) => {
+  return async (ctx, next) => {
+    console.log('C: 请求开始')
+    await next() // 等待后续中间件执行
+    console.log('C: 响应结束')
+  }
+}
+```
+
+```js{16-17,24-27} [config/config.default.js]
+/* eslint valid-jsdoc: "off" */
+
+/**
+ * @param {Egg.EggAppInfo} appInfo app info
+ */
+module.exports = (appInfo) => {
+  /**
+   * built-in config
+   * @type {Egg.EggAppConfig}
+   **/
+  const config = (exports = {})
+
+  // use for cookie sign key, should change to your own and keep security
+  config.keys = appInfo.name + '_1741615691468_6783'
+
+  // add your middleware config here
+  config.middleware = ['aMid', 'bMid', 'cMid']
+
+  // add your user config here
+  const userConfig = {
+    // myAppName: 'egg',
+  }
+
+  // disable default middleware i18n
+  config.i18n = {
+    enable: false,
+  }
+
+  return {
+    ...config,
+    ...userConfig,
+  }
+}
+
+```
+
+```js [app/controller/home.js]
+const { Controller } = require('egg')
+
+class HomeController extends Controller {
+  async index() {
+    const { ctx, app } = this
+    
+    console.log('内置中间件列表：', app.config.coreMiddlewares)
+    console.log('最终起作用的中间件处理函数列表：', app.middleware)
+
+    // A: 请求开始
+    // B: 请求开始
+    // C: 请求开始
+    // 内置中间件列表： [
+    //   'meta',
+    //   'siteFile',
+    //   'notfound',
+    //   'static',
+    //   'bodyParser',
+    //   'overrideMethod',
+    //   'session',
+    //   'securities',
+    //   'i18n',
+    //   'eggLoaderTrace'
+    // ]
+    // 最终起作用的中间件处理函数列表： [
+    //   [AsyncFunction: meta] { _name: 'meta' },
+    //   [AsyncFunction: siteFile] { _name: 'siteFile' },
+    //   [AsyncFunction: notfound] { _name: 'notfound' },
+    //   [Function (anonymous)] { _name: 'static' },
+    //   [AsyncFunction: bodyParser] { _name: 'bodyParser' },
+    //   [Function: overrideMethod] { _name: 'overrideMethod' },
+    //   [AsyncFunction: session] { _name: 'session' },
+    //   [Function (anonymous)] { _name: 'securities' },
+    //   [AsyncFunction (anonymous)] { _name: 'eggLoaderTrace' },
+    //   [AsyncFunction (anonymous)] { _name: 'aMid' },
+    //   [AsyncFunction (anonymous)] { _name: 'bMid' },
+    //   [AsyncFunction (anonymous)] { _name: 'cMid' },
+    //   [Function: dispatch] {
+    //     router: EggRouter {
+    //       opts: [Object],
+    //       methods: [Array],
+    //       params: {},
+    //       stack: [Array],
+    //       app: [Object],
+    //       head: [Function (anonymous)],
+    //       options: [Function (anonymous)],
+    //       get: [Function (anonymous)],
+    //       put: [Function (anonymous)],
+    //       patch: [Function (anonymous)],
+    //       post: [Function (anonymous)],
+    //       delete: [Function (anonymous)],
+    //       all: [Function (anonymous)]
+    //     }
+    //   }
+    // ]
+    // C: 响应结束
+    // B: 响应结束
+    // A: 响应结束
+
+    ctx.body = 'hi, egg'
+  }
+}
+
+module.exports = HomeController
+```
+
+:::
+
+- **注意**：Egg.js 框架的加载器会将文件名中的分隔符都转换为驼峰形式的变量名。
+  - 中间件的命名，如果按照本 demo 这种下划线的写法来命名，那么在配置的时候不能直接写 `a_mid`，应该写 `aMid`。
+- 默认内置的中间件都是启用的，如果有不需要的，可以自行在 `config/config.default.js` 中将 `enable` 字段设置为 `false` 禁用对应的中间件。
