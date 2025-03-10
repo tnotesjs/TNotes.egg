@@ -10,8 +10,8 @@
 - 这样做的逻辑理念是：
   - `config/plugin.js` 集中管理
   - `config/config.default.js` 集中配置
-- 不同的插件有不同的配置，需要阅读具体插件的官方文档。
-- **示例 - 插件配置**
+- **不同的插件有不同的配置，需要阅读具体插件的官方文档。**
+- **示例 - mysql 插件配置**
 
 ```js
 // config/config.default.js

@@ -88,8 +88,8 @@
   - [1. 📒 插件的配置说明](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0013.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/README.md#1--插件的配置说明)
   
 
-- [ ] [0014. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0014.%20xxx/README.md) <!-- [locale](./notes/0014.%20xxx/README.md) -->  
-  - [1. 📒 title](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0014.%20xxx/README.md#1--title)
+- [ ] [0014. 中间件](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0014.%20%E4%B8%AD%E9%97%B4%E4%BB%B6/README.md) <!-- [locale](./notes/0014.%20%E4%B8%AD%E9%97%B4%E4%BB%B6/README.md) -->  
+  - [1. 📒 title](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0014.%20%E4%B8%AD%E9%97%B4%E4%BB%B6/README.md#1--title)
   
 
 - [ ] [0015. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20xxx/README.md) <!-- [locale](./notes/0015.%20xxx/README.md) -->  
