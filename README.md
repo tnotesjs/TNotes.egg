@@ -3,7 +3,8 @@
 <!-- region:toc -->
 - [TNotes.egg](#tnotesegg)
   - [1. 🚀 Quick Start](#1--quick-start)
-  - [2. 基础功能模块](#2-基础功能模块)
+  - [2. 核心功能](#2-核心功能)
+  - [3. 基础功能](#3-基础功能)
 <!-- endregion:toc -->
 
 ## 1. 🚀 Quick Start
@@ -50,7 +51,24 @@
   - [2. 💻 demos.1 - Hello World 示例](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0006.%20%E4%B8%8D%E5%80%9F%E5%8A%A9%E8%84%9A%E6%89%8B%E6%9E%B6%E5%AE%9E%E7%8E%B0%20Hello%20World%20%E7%A4%BA%E4%BE%8B/README.md#2--demos1---hello-world-示例)
   
 
-## 2. 基础功能模块
+## 2. 核心功能
+
+- [x] [0016. 了解 Egg.js 核心功能模块都涵盖哪些内容](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0016.%20%E4%BA%86%E8%A7%A3%20Egg.js%20%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E9%83%BD%E6%B6%B5%E7%9B%96%E5%93%AA%E4%BA%9B%E5%86%85%E5%AE%B9/README.md) <!-- [locale](./notes/0016.%20%E4%BA%86%E8%A7%A3%20Egg.js%20%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E9%83%BD%E6%B6%B5%E7%9B%96%E5%93%AA%E4%BA%9B%E5%86%85%E5%AE%B9/README.md) -->  
+  - [1. 🔗 Egg.js 核心功能](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0016.%20%E4%BA%86%E8%A7%A3%20Egg.js%20%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E9%83%BD%E6%B6%B5%E7%9B%96%E5%93%AA%E4%BA%9B%E5%86%85%E5%AE%B9/README.md#1--eggjs-核心功能)
+  - [2. 📒 核心功能列表](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0016.%20%E4%BA%86%E8%A7%A3%20Egg.js%20%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E9%83%BD%E6%B6%B5%E7%9B%96%E5%93%AA%E4%BA%9B%E5%86%85%E5%AE%B9/README.md#2--核心功能列表)
+  
+
+- [x] [0015. app.locals 和 ctx.locals](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md) <!-- [locale](./notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md) -->  
+  - [1. 🔗 Egg.js 官方文档 > 核心功能 > View 模板渲染](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md#1--eggjs-官方文档--核心功能--view-模板渲染)
+  - [2. 📒 `app.locals` 和 `ctx.locals` 概述](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md#2--applocals-和-ctxlocals-概述)
+  - [3. 🤔 `app.locals` 和 `ctx.locals` 只能用在 View 模板渲染中吗？](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md#3--applocals-和-ctxlocals-只能用在-view-模板渲染中吗)
+  - [4. 📒 `app.locals` - 全局共享数据](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md#4--applocals---全局共享数据)
+  - [5. 📒 `ctx.locals` - 跨中间件、控制器通信](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md#5--ctxlocals---跨中间件控制器通信)
+  - [6. 📒 自定义模块](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md#6--自定义模块)
+  - [7. 📒 最佳实践建议](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md#7--最佳实践建议)
+  
+
+## 3. 基础功能
 
 - [x] [0007. 了解 Egg.js 基础功能模块都涵盖哪些内容](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0007.%20%E4%BA%86%E8%A7%A3%20Egg.js%20%E5%9F%BA%E7%A1%80%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E9%83%BD%E6%B6%B5%E7%9B%96%E5%93%AA%E4%BA%9B%E5%86%85%E5%AE%B9/README.md) <!-- [locale](./notes/0007.%20%E4%BA%86%E8%A7%A3%20Egg.js%20%E5%9F%BA%E7%A1%80%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E9%83%BD%E6%B6%B5%E7%9B%96%E5%93%AA%E4%BA%9B%E5%86%85%E5%AE%B9/README.md) -->  
   - [1. 🔗 Egg.js 基础功能](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0007.%20%E4%BA%86%E8%A7%A3%20Egg.js%20%E5%9F%BA%E7%A1%80%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E9%83%BD%E6%B6%B5%E7%9B%96%E5%93%AA%E4%BA%9B%E5%86%85%E5%AE%B9/README.md#1--eggjs-基础功能)
@@ -94,18 +112,9 @@
   - [3. 💻 demos.2 - 🧅 洋葱模型 - 理解中间件的执行顺序](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0014.%20%E4%B8%AD%E9%97%B4%E4%BB%B6/README.md#3--demos2----洋葱模型---理解中间件的执行顺序)
   
 
-- [x] [0015. app.locals 和 ctx.locals](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md) <!-- [locale](./notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md) -->  
-  - [1. 🔗 Egg.js 官方文档 > 核心功能 > View 模板渲染](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md#1--eggjs-官方文档--核心功能--view-模板渲染)
-  - [2. 📒 `app.locals` 和 `ctx.locals` 概述](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md#2--applocals-和-ctxlocals-概述)
-  - [3. 🤔 `app.locals` 和 `ctx.locals` 只能用在 View 模板渲染中吗？](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md#3--applocals-和-ctxlocals-只能用在-view-模板渲染中吗)
-  - [4. 📒 `app.locals` - 全局共享数据](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md#4--applocals---全局共享数据)
-  - [5. 📒 `ctx.locals` - 跨中间件、控制器通信](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md#5--ctxlocals---跨中间件控制器通信)
-  - [6. 📒 自定义模块](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md#6--自定义模块)
-  - [7. 📒 最佳实践建议](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README.md#7--最佳实践建议)
-  
-
-- [ ] [0016. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0016.%20xxx/README.md) <!-- [locale](./notes/0016.%20xxx/README.md) -->  
-  - [1. 📒 title](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0016.%20xxx/README.md#1--title)
+- [x] [0016. 了解 Egg.js 核心功能模块都涵盖哪些内容](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0016.%20%E4%BA%86%E8%A7%A3%20Egg.js%20%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E9%83%BD%E6%B6%B5%E7%9B%96%E5%93%AA%E4%BA%9B%E5%86%85%E5%AE%B9/README.md) <!-- [locale](./notes/0016.%20%E4%BA%86%E8%A7%A3%20Egg.js%20%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E9%83%BD%E6%B6%B5%E7%9B%96%E5%93%AA%E4%BA%9B%E5%86%85%E5%AE%B9/README.md) -->  
+  - [1. 🔗 Egg.js 核心功能](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0016.%20%E4%BA%86%E8%A7%A3%20Egg.js%20%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E9%83%BD%E6%B6%B5%E7%9B%96%E5%93%AA%E4%BA%9B%E5%86%85%E5%AE%B9/README.md#1--eggjs-核心功能)
+  - [2. 📒 核心功能列表](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0016.%20%E4%BA%86%E8%A7%A3%20Egg.js%20%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E9%83%BD%E6%B6%B5%E7%9B%96%E5%93%AA%E4%BA%9B%E5%86%85%E5%AE%B9/README.md#2--核心功能列表)
   
 
 - [ ] [0017. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0017.%20xxx/README.md) <!-- [locale](./notes/0017.%20xxx/README.md) -->  
