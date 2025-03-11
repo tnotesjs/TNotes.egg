@@ -90,7 +90,13 @@
   
 
 - [ ] [0015. app.locals 和 ctx.locals](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README) <!-- [locale](./notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README) -->  
-  - [1. 📒 title](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README#1--title)
+  - [1. 🔗 Egg.js 官方文档 > 核心功能 > View 模板渲染](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README#1--eggjs-官方文档--核心功能--view-模板渲染)
+  - [2. 📒 `app.locals` 和 `ctx.locals` 概述](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README#2--applocals-和-ctxlocals-概述)
+  - [3. 🤔 `app.locals` 和 `ctx.locals` 只能用在 View 模板渲染中吗？](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README#3--applocals-和-ctxlocals-只能用在-view-模板渲染中吗)
+  - [4. 📒 `app.locals` - 全局共享数据](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README#4--applocals---全局共享数据)
+  - [5. 📒 `ctx.locals` - 跨中间件、控制器通信](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README#5--ctxlocals---跨中间件控制器通信)
+  - [6. 📒 自定义模块](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README#6--自定义模块)
+  - [7. 📒 最佳实践建议](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README#7--最佳实践建议)
   
 
 - [ ] [0016. xxx](https://tdahuyou.github.io/TNotes.egg/notes/0016.%20xxx/README) <!-- [locale](./notes/0016.%20xxx/README) -->  
