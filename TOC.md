@@ -89,8 +89,8 @@
   - [3. 💻 demos.2 - 🧅 洋葱模型 - 理解中间件的执行顺序](https://tdahuyou.github.io/TNotes.egg/notes/0014.%20%E4%B8%AD%E9%97%B4%E4%BB%B6/README#3--demos2----洋葱模型---理解中间件的执行顺序)
   
 
-- [ ] [0015. xxx](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20xxx/README) <!-- [locale](./notes/0015.%20xxx/README) -->  
-  - [1. 📒 title](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20xxx/README#1--title)
+- [ ] [0015. app.locals 和 ctx.locals](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README) <!-- [locale](./notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README) -->  
+  - [1. 📒 title](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README#1--title)
   
 
 - [ ] [0016. xxx](https://tdahuyou.github.io/TNotes.egg/notes/0016.%20xxx/README) <!-- [locale](./notes/0016.%20xxx/README) -->  
