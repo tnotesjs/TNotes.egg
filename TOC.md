@@ -89,7 +89,7 @@
   - [3. 💻 demos.2 - 🧅 洋葱模型 - 理解中间件的执行顺序](https://tdahuyou.github.io/TNotes.egg/notes/0014.%20%E4%B8%AD%E9%97%B4%E4%BB%B6/README#3--demos2----洋葱模型---理解中间件的执行顺序)
   
 
-- [ ] [0015. app.locals 和 ctx.locals](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README) <!-- [locale](./notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README) -->  
+- [x] [0015. app.locals 和 ctx.locals](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README) <!-- [locale](./notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README) -->  
   - [1. 🔗 Egg.js 官方文档 > 核心功能 > View 模板渲染](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README#1--eggjs-官方文档--核心功能--view-模板渲染)
   - [2. 📒 `app.locals` 和 `ctx.locals` 概述](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README#2--applocals-和-ctxlocals-概述)
   - [3. 🤔 `app.locals` 和 `ctx.locals` 只能用在 View 模板渲染中吗？](https://tdahuyou.github.io/TNotes.egg/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals/README#3--applocals-和-ctxlocals-只能用在-view-模板渲染中吗)
