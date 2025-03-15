@@ -3,6 +3,8 @@
   "repoName": "TNotes.egg",
   "keywords": ["TNotes.egg"],
   "ignore_dirs": [".vscode", "0000", "assets", "node_modules"],
+  "sidebar_isNotesIDVisible": false,
+  "sidebar_isCollapsed": true,
   "socialLinks": [
     {
       "ariaLabel": "Tdahuyou 语雀主页链接",

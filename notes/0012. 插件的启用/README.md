@@ -73,4 +73,3 @@ exports.static = true
 - 对于 `egg-static` 插件，可以通过上述的配置启用、禁用它。
   - 禁用的话，将 `enable` 设置为 `false` 即可。
 - 写法 3 是针对内置插件的语法糖。
-
