@@ -268,24 +268,35 @@ class DataController extends Controller {
     - 模块化的方式更符合“最小权限原则”（只导入需要的），避免全局变量可能带来的命名冲突或意外修改。
 - **示例：**
 
-```javascript
-// app/common/constants.js
+::: code-group
+
+```js [app/common/constants.js]
 /**
  * 站点名称
  */
 exports.SITE_NAME = 'My Awesome Site'
-exports.MAX_UPLOAD_SIZE = '10MB'
-exports.DEBUG_MODE = true
 
-// 在控制器中使用
+/**
+ * 最大上传文件的大小
+ */
+exports.MAX_UPLOAD_SIZE = '10MB'
+
+/**
+ * 是否开启调试模式
+ */
+exports.DEBUG_MODE = true
+```
+
+```js [在控制器中使用]
 const { SITE_NAME } = require('../common/constants')
 class HomeController extends Controller {
   async index() {
     this.ctx.body = `Welcome to ${SITE_NAME}`
   }
 }
+```
 
-// 在配置文件中使用
+```js [在配置文件中使用]
 // config/config.default.js
 const { DEBUG_MODE } = require('../app/common/constants')
 exports.logger = {
@@ -293,13 +304,16 @@ exports.logger = {
 }
 ```
 
-- **🤔 `app.locals` vs. 自定义模块 如何选择？**
-  - **静态常量或配置**：优先使用自定义模块（如 `constants.js`），通过 `require` 或 `import` 导入。
+:::
+
+- **🤔 `app.locals` vs. `自定义模块` 如何选择？**
+  - **静态常量或配置**：优先使用自定义模块（比如上面的 `app/common/constants.js`），通过 `require` 或 `import` 导入。
   - **动态全局数据**：使用 `app.locals`，尤其是需要在运行时更新的配置。
   - **模板渲染上下文**：如果模板引擎直接依赖 `app.locals`，可以保留它以简化代码。
 
 ## 7. 📒 最佳实践建议
 
-- **全局静态配置**：通过模块导出（如 `constants.js`）。
-- **全局动态数据**：通过 `app.locals` 存储。
+- **全局级别的静态配置**：通过模块导出（如 `constants.js`）。
+- **全局级别的动态数据**：通过 `app.locals` 存储。
+- **请求级别的共享数据**：在中间件或控制器中通过 `ctx.locals` 存储。
 - **View 模板上下文**：在渲染时合并 `app.locals` 和 `ctx.locals`。

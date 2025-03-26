@@ -8,7 +8,7 @@
 - [5. 📒 Egg.js 的目录结构约定](#5--eggjs-的目录结构约定)
 - [6. 📒 Egg.js 中的一些核心概念](#6--eggjs-中的一些核心概念)
 - [7. 📒 Egg.js 的使用场景](#7--eggjs-的使用场景)
-<!-- endregion:toc --> 
+<!-- endregion:toc -->
 
 ## 1. 🔗 Egg.js Github 仓库
 
@@ -17,7 +17,10 @@
 ## 2. 🔗 Egg.js 官网
 
 - https://www.eggjs.org/zh-CN
-- 有中文和英文两个版本。
+  - 有中文和英文两个版本。
+- https://github.com/eggjs/egg/tree/master/site/docs
+  - 官方文档的 markdown 源码。
+  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-26-22-33-19.png)
 
 ## 3. 📒 什么是 Egg.js
 
@@ -73,12 +76,20 @@
 
 ## 6. 📒 Egg.js 中的一些核心概念
 
-- **Router** 路由用于定义 URL 和 Controller 方法之间的映射关系。
-- **Controller** 是负责处理用户请求的模块，通常用于解析请求参数、调用 Service 层逻辑，并返回响应数据。
-- **Service** 是业务逻辑的核心，负责封装复杂的业务处理逻辑，供 Controller 调用。
-- **Middleware** 中间件用于拦截和处理请求，类似于 Koa 的中间件机制。Egg.js 提供了一些内置中间件，也支持自定义中间件。
-- **Plugin** 插件是 Egg.js 的扩展机制，用于添加新功能或修改现有功能。插件可以独立开发和发布，便于复用。
-- **Config** 配置文件用于管理项目的运行时配置，支持多环境（如开发、测试、生产）的配置分离。
+- **Router**
+  - 路由用于定义 URL 和 Controller 方法之间的映射关系。
+- **Controller**
+  - 是负责处理用户请求的模块，通常用于解析请求参数、调用 Service 层逻辑，并返回响应数据。
+- **Service**
+  - 是业务逻辑的核心，负责封装复杂的业务处理逻辑，供 Controller 调用。
+- **Middleware**
+  - 中间件用于拦截和处理请求，类似于 Koa 的中间件机制。
+  - Egg.js 提供了一些内置中间件，也支持自定义中间件。
+- **Plugin**
+  - 插件是 Egg.js 的扩展机制，用于添加新功能或修改现有功能。
+  - 插件可以独立开发和发布，便于复用。
+- **Config**
+  - 配置文件用于管理项目的运行时配置，支持多环境（如开发、测试、生产）的配置分离。
 
 ## 7. 📒 Egg.js 的使用场景
 

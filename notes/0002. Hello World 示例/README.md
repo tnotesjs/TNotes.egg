@@ -132,26 +132,29 @@ module.exports = HomeController
 ```bash {1-4}
 ├── app
 │   ├── controller
-│   │   └── home.js       // 控制器，包含 index 和 hello 方法
-│   ├── router.js         // 路由配置
+│   │   └── home.js       # 控制器，包含 index 和 hello 方法
+│   ├── router.js         # 路由配置
 ├── config
-│   ├── config.default.js // 默认配置
-│   └── plugin.js         // 插件配置
-├── logs                  // 日志文件
-├── test                  // 测试代码
-├── typing                // 类型定义
-├── package.json          // 项目依赖
-└── README.md             // 项目说明文档
+│   ├── config.default.js # 默认配置
+│   └── plugin.js         # 插件配置
+├── logs                  # 日志文件
+├── test                  # 测试代码
+├── typing                # 类型定义
+├── package.json          # 项目依赖
+└── README.md             # 项目说明文档
 ```
 
 - 会发现 Egg.js 中的目录结构是非常清晰的，按照约定好的规则来编写代码也显得非常自然。
 - `router.js`
-  - 用于定义 URL 和 Controller 方法之间的映射关系
-  - `xxx/xxx` 接口需要交给 `xxx` 控制器来处理
+  - 用于定义 URL 和 Controller 方法之间的映射关系。
+  - `xxx/xxx` 接口需要交给 `xxx` 控制器来处理。
+  - 示例：`router.get('/hello', controller.home.hello)`
+    - 表示通过 `get` 请求访问 `/hello` 接口时，将交给控制器 `home` 下的 `hello` Action 方法来处理。
+    - 最终处理请求的是对应控制器中具体的 Action 方法。
 - `controller`
-  - 这是 MVC 中的 C 部分
-  - 是专门负责处理用户请求的模块
-  - 通常用于解析请求参数、调用 Service 层逻辑，并返回响应数据。
+  - 我们常说的 MVC 模式中的字母 C 指的就是 Controller 控制器的意思。
+  - 控制器是专门负责处理用户请求的。
+  - 控制器通常用于解析请求参数、调用 Service 层逻辑，并返回响应数据。
 - `Service`
   - 在这个 demo 中没有体现出来，它是业务逻辑的核心，负责封装复杂的业务处理逻辑，供 Controller 调用。
   - 跟具体业务相关的代码直接丢到这里边统一管理。
