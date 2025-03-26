@@ -13,7 +13,7 @@
 ## 1. 🔗 Egg.js 官方文档 > 核心功能 > View 模板渲染
 
 - https://www.eggjs.org/zh-CN/core/view
-- ![](assets/2025-03-11-22-28-22.png)
+- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-11-22-28-22.png)
 
 ## 2. 📒 `app.locals` 和 `ctx.locals` 概述
 

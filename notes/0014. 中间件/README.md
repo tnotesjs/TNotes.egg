@@ -11,7 +11,7 @@
 - Egg.js 中的中间件（Middleware）是其核心机制之一，用于在请求和响应的生命周期中插入自定义逻辑。
 - **🧅 洋葱模型**
   - Egg.js 中的中间件（Middleware）基于 **Koa 的洋葱模型**。
-  - ![](assets/2025-03-10-20-23-36.png)
+  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-10-20-23-36.png)
   - **执行顺序**：中间件按照 `config.middleware` 数组的顺序依次执行，形成“洋葱模型”：
     - **请求阶段**：按数组顺序进入中间件。
     - **响应阶段**：按数组逆序返回。

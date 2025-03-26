@@ -99,17 +99,17 @@ exports.keys = 'TNotes.egg.0006'
 - 启动开发环境：`npm run dev`
 - 最终效果：
   - 访问：http://127.0.0.1:7001/
-  - ![](assets/2025-03-08-20-26-44.png)
+  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-08-20-26-44.png)
 - 通过上述流程，Egg.js 实现了从配置加载、服务启动、路由匹配到请求处理的完整生命周期管理。其遵循 MVC 模式的设计，使得代码结构清晰、职责分明，便于开发与维护。
 - **🤔 `egg-bin dev` 都经历了哪些流程？**
   - **加载配置**
     - Egg.js 在启动时会自动读取 `config` 文件夹中的配置文件（如 `config.default.js`）以及 `app/router.js` 中的路由信息，并将这些配置解析后生成最终的运行时配置，存储在 `run` 文件夹中。
-    - ![](assets/2025-03-08-20-34-59.png)
+    - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-08-20-34-59.png)
   - **启动服务**
     - Egg.js 内部基于 Koa 创建了一个应用实例，并完成必要的初始化工作（如加载插件、中间件等）。
     - 随后，默认监听 `7001` 端口，等待接收 HTTP 请求。
     - 请求日志，错误日志啥的，会自动生成到 `logs` 文件夹中。（可以根据需要配置日志记录的规则）
-    - ![](assets/2025-03-08-20-38-49.png)
+    - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-08-20-38-49.png)
   - **路由匹配**
     - Egg.js 基于 Koa 的中间件机制，通过自身封装实现了路由功能。
     - 当请求到达时，框架会根据路由表中定义的路径和 HTTP 方法，将请求分发到对应的控制器（Controller）中的具体方法（Action）进行处理。
@@ -124,7 +124,7 @@ exports.keys = 'TNotes.egg.0006'
   - 就本节搭建的 demo 来看，egg 并没有对 `@koa/router` 有依赖。
   - 你可以通过 `npm ls @koa/router` 验证 Egg.js 是否直接使用了 `@koa/router`。
     - `npm ls @koa/router` 是用来查看项目的依赖树的一条命令。
-    - ![](assets/2025-03-08-20-43-47.png)
+    - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-08-20-43-47.png)
     - 输出为空，说明 Egg.js 并未直接依赖该库。
   - Egg.js 的路由功能是框架自身封装的 ，并非直接使用 `@koa/router`。
   - 它基于 Koa 的中间件机制，结合自身的插件系统和约定式设计，提供了一套简单易用的路由 API。

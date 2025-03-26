@@ -33,7 +33,7 @@ egg-init my-app --type=simple
 ```
 
 - **🤔 type 的值除了 simple 还能写什么呢？**
-- ![](assets/2025-03-08-09-57-27.png)
+- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-08-09-57-27.png)
 
 ## 3. 📒 boilerplate 样板项目
 
@@ -209,7 +209,7 @@ https://npm.im/egg-static
 | ……       | ……                         | ……                                |
 
 - 在你执行 `npm init egg --type=simple` 命令的时候，会提醒你选择模板类型。
-  - ![](assets/2025-03-09-08-58-15.png)
+  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-08-58-15.png)
 
 ## 4. 📒 `npm init egg` vs. `egg-init`
 

@@ -199,17 +199,17 @@ img {
 - 默认配置的最终效果：
 
 ::: swiper
-![](assets/2025-03-09-10-59-48.png)
-![](assets/2025-03-09-11-03-07.png)
-![](assets/2025-03-09-11-02-49.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-10-59-48.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-03-07.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-02-49.png)
 :::
 
 - 修改 prefix 和 dir 参数后的最终效果：
 
 ::: swiper
-![](assets/2025-03-09-11-00-13.png)
-![](assets/2025-03-09-11-00-41.png)
-![](assets/2025-03-09-11-01-51.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-00-13.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-00-41.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-01-51.png)
 :::
 
 > 更多配置字段，请查阅 https://github.com/eggjs/koa-static-cache
