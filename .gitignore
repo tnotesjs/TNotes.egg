@@ -1,5 +1,4 @@
 MERGED_README.md
-.demos
 
 # 忽略视频｜音频文件
 *.mp3
@@ -14,7 +13,7 @@ Thumbs.db
 *.swo
 *.bak
 *~
-.vscode/
+# .vscode/
 .idea/
 
 # 忽略日志文件、数据库文件、缓存等
