@@ -1,7 +1,9 @@
 {
   "author": "Tdahuyou",
   "repoName": "TNotes.egg",
-  "keywords": ["TNotes.egg"],
+  "keywords": [
+    "TNotes.egg"
+  ],
   "sidebar_isCollapsed": true,
   "ignore_dirs": [
     ".vscode",
@@ -51,5 +53,6 @@
       "link": "https://github.com/Tdahuyou/TNotes.template",
       "icon": "github"
     }
-  ]
+  ],
+  "id": "d350cbcb-9388-4352-a5be-ab3c38aeab45"
 }
