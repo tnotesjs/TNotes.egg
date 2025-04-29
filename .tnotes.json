@@ -1,9 +1,7 @@
 {
   "author": "Tdahuyou",
   "repoName": "TNotes.egg",
-  "keywords": [
-    "TNotes.egg"
-  ],
+  "keywords": ["TNotes.egg"],
   "sidebar_isCollapsed": true,
   "ignore_dirs": [
     ".vscode",
@@ -14,6 +12,7 @@
     "demos",
     "assets"
   ],
+  "rootDocsSrcDir": "../_/docs/src",
   "port": 9383,
   "menuItems": [
     {
