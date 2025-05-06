@@ -77,3 +77,5 @@ class CourseCategoryController extends Controller {
 
 - 可以
 - 不过从语义层面来讲，跟单次请求相关的逻辑应该使用 `ctx.model`（请求级），跟服务应用相关的应该使用 `app.model`（全局级）。
+  - 每次一个请求打过来，通常都会丢给对应的 Controller 处理，因此说 Controller 是请求级的。
+  - Service 中定义的服务相关的业务逻辑，可以被任何需要它的 Controller 调用，因此说 Service 是全局级的。
