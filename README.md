@@ -7,6 +7,9 @@
   - [2. 核心功能](#2-核心功能)
   - [3. 基础功能](#3-基础功能)
   - [4. 分层设计](#4-分层设计)
+  - [5. model 的引用](#5-model-的引用)
+  - [6. service 的引用](#6-service-的引用)
+  - [7. Egg.js 中模块的命名解析细节](#7-eggjs-中模块的命名解析细节)
 
 <!-- endregion:toc -->
 
@@ -91,13 +94,22 @@
   - [1. 📒 概述](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0017.%20%E5%AD%97%E6%AE%B5%E6%A0%A1%E9%AA%8C%E7%9A%84%E5%88%86%E5%B1%82%E8%AE%BE%E8%AE%A1/README.md#1--概述)
   - [2. 📒 简单校验](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0017.%20%E5%AD%97%E6%AE%B5%E6%A0%A1%E9%AA%8C%E7%9A%84%E5%88%86%E5%B1%82%E8%AE%BE%E8%AE%A1/README.md#2--简单校验)
   - [3. 📒 业务逻辑校验](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0017.%20%E5%AD%97%E6%AE%B5%E6%A0%A1%E9%AA%8C%E7%9A%84%E5%88%86%E5%B1%82%E8%AE%BE%E8%AE%A1/README.md#3--业务逻辑校验)
-- [ ] [0018. ctx.model 和 app.model](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0018.%20ctx.model%20%E5%92%8C%20app.model/README.md)
+
+## 5. model 的引用
+
+- [x] [0018. ctx.model 和 app.model](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0018.%20ctx.model%20%E5%92%8C%20app.model/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0018.%20ctx.model%20%E5%92%8C%20app.model/README.md#1--概述)
   - [2. 📒 `app.model`](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0018.%20ctx.model%20%E5%92%8C%20app.model/README.md#2--appmodel)
   - [3. 📒 `ctx.model`](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0018.%20ctx.model%20%E5%92%8C%20app.model/README.md#3--ctxmodel)
   - [4. 🤔 问：为什么设计成两个接口？](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0018.%20ctx.model%20%E5%92%8C%20app.model/README.md#4--问为什么设计成两个接口)
   - [5. 🤔 问：为了保持统一，在整个项目中全都使用 `ctx.model.xxx` 或者 `app.model.xxx` 可以吗？](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0018.%20ctx.model%20%E5%92%8C%20app.model/README.md#5--问为了保持统一在整个项目中全都使用-ctxmodelxxx-或者-appmodelxxx-可以吗)
-- [ ] [0019. Egg.js 中的 controller、service、model 模块命名解析策略](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0019.%20Egg.js%20%E4%B8%AD%E7%9A%84%20controller%E3%80%81service%E3%80%81model%20%E6%A8%A1%E5%9D%97%E5%91%BD%E5%90%8D%E8%A7%A3%E6%9E%90%E7%AD%96%E7%95%A5/README.md)
+
+## 6. service 的引用
+
+- [ ] [0020. ctx.service 和 app.service](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0020.%20ctx.service%20%E5%92%8C%20app.service/README.md)
+  - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0020.%20ctx.service%20%E5%92%8C%20app.service/README.md#1--概述)
+
+## 7. Egg.js 中模块的命名解析细节
+
+- [x] [0019. Egg.js 中的 controller、service、model 模块命名解析策略](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0019.%20Egg.js%20%E4%B8%AD%E7%9A%84%20controller%E3%80%81service%E3%80%81model%20%E6%A8%A1%E5%9D%97%E5%91%BD%E5%90%8D%E8%A7%A3%E6%9E%90%E7%AD%96%E7%95%A5/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0019.%20Egg.js%20%E4%B8%AD%E7%9A%84%20controller%E3%80%81service%E3%80%81model%20%E6%A8%A1%E5%9D%97%E5%91%BD%E5%90%8D%E8%A7%A3%E6%9E%90%E7%AD%96%E7%95%A5/README.md#1--概述)
-- [ ] [0020. xxx](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0020.%20xxx/README.md)
-  - [1. 📒 title](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0020.%20xxx/README.md#1--title)
