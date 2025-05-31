@@ -2,15 +2,10 @@
 layout: home
 
 hero:
-  name: 'egg notes'
+  name: 'Egg.js 笔记'
   image:
     src: /logo.png
     alt: TNotes logo
-  actions:
-    - theme: brand
-      text: 📒 TNotes
-      link: https://tdahuyou.github.io/notes
-    - theme: alt
-      text: 👀 TOC
-      link: /TOC
 ---
+
+<SidebarCard pending />
