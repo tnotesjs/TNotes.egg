@@ -19,9 +19,9 @@
     "icon": {
       "src": "https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/assets/icon--eggjs.png"
     },
-    "title": "Egg.js 笔记",
+    "title": "egg",
     "completed_notes_count": 19,
-    "details": "25.03 近期在写后端（边学边写），需要用到这玩意儿，正好写点儿笔记。",
+    "details": "Egg.js 笔记",
     "link": "https://tdahuyou.github.io/TNotes.egg/"
   },
   "port": 9383,
