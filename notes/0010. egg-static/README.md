@@ -147,16 +147,16 @@ module.exports = {
 ```html [app/public/index.html、app/assets/index.html]
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>hello we~</h1>
-    <img src="./we.png" alt="">
-</body>
+    <img src="./we.png" alt="" />
+  </body>
 </html>
 ```
 
@@ -201,17 +201,25 @@ img {
 - 默认配置的最终效果：
 
 ::: swiper
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-10-59-48.png)
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-03-07.png)
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-02-49.png)
+
+![1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-10-59-48.png)
+
+![2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-03-07.png)
+
+![3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-02-49.png)
+
 :::
 
 - 修改 prefix 和 dir 参数后的最终效果：
 
 ::: swiper
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-00-13.png)
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-00-41.png)
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-01-51.png)
+
+![1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-00-13.png)
+
+![2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-00-41.png)
+
+![3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-01-51.png)
+
 :::
 
 > 更多配置字段，请查阅 https://github.com/eggjs/koa-static-cache
