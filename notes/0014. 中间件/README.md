@@ -13,7 +13,7 @@
 - Egg.js 中的中间件（Middleware）是其核心机制之一，用于在请求和响应的生命周期中插入自定义逻辑。
 - **🧅 洋葱模型**
   - Egg.js 中的中间件（Middleware）基于 **Koa 的洋葱模型**。
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-10-20-23-36.png)
+  - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-10-20-23-36.png)
   - **执行顺序**：中间件按照 `config.middleware` 数组的顺序依次执行，形成“洋葱模型”：
     - **请求阶段**：按数组顺序进入中间件。
     - **响应阶段**：按数组逆序返回。
@@ -79,11 +79,11 @@ exports.auth = {
 
 ```js [app/router.js]
 module.exports = (app) => {
-  const { router } = app;
-  const mymid = app.middleware.mymid(配置); // 得到中间件
-  router.get("/", mymid, "home.index"); // 仅在该路由中应用中间件
+  const { router } = app
+  const mymid = app.middleware.mymid(配置) // 得到中间件
+  router.get('/', mymid, 'home.index') // 仅在该路由中应用中间件
   // 其他路由……
-};
+}
 ```
 
 :::
@@ -141,18 +141,18 @@ class HomeController extends Controller {
 module.exports = HomeController
 ```
 
-| 中间件名称       | 作用描述                                                                                   |
-|------------------|------------------------------------------------------------------------------------------|
-| `meta`           | 提供性能监控功能，记录请求耗时等元信息。                                                   |
-| `siteFile`       | 处理静态站点文件（如 `favicon.ico`），支持自定义静态资源路径。                               |
-| `notfound`       | 处理未匹配到路由的请求，返回 `404` 响应。                                                   |
-| `static`         | 提供静态资源服务，用于托管项目中的静态文件（如图片、CSS、JS）。                            |
-| `bodyParser`     | 解析 HTTP 请求体，支持 JSON、表单数据等格式，将解析结果挂载到 `ctx.request.body`。         |
-| `overrideMethod` | 支持通过请求头或参数覆盖 HTTP 方法（如将 POST 请求模拟为 DELETE 或 PUT）。                |
-| `session`        | 提供会话管理功能，基于 Cookie 实现用户会话状态的存储与读取。                               |
-| `securities`     | 提供安全防护功能，包括 CSRF 防护、XSS 防护、HSTS 等常见安全策略。                          |
-| `i18n`           | 提供国际化支持，允许根据请求的语言偏好返回多语言内容。                                     |
-| `eggLoaderTrace` | 用于调试和追踪 Egg.js 加载器的行为，记录加载过程中的详细信息，便于排查问题。               |
+| 中间件名称 | 作用描述 |
+| --- | --- |
+| `meta` | 提供性能监控功能，记录请求耗时等元信息。 |
+| `siteFile` | 处理静态站点文件（如 `favicon.ico`），支持自定义静态资源路径。 |
+| `notfound` | 处理未匹配到路由的请求，返回 `404` 响应。 |
+| `static` | 提供静态资源服务，用于托管项目中的静态文件（如图片、CSS、JS）。 |
+| `bodyParser` | 解析 HTTP 请求体，支持 JSON、表单数据等格式，将解析结果挂载到 `ctx.request.body`。 |
+| `overrideMethod` | 支持通过请求头或参数覆盖 HTTP 方法（如将 POST 请求模拟为 DELETE 或 PUT）。 |
+| `session` | 提供会话管理功能，基于 Cookie 实现用户会话状态的存储与读取。 |
+| `securities` | 提供安全防护功能，包括 CSRF 防护、XSS 防护、HSTS 等常见安全策略。 |
+| `i18n` | 提供国际化支持，允许根据请求的语言偏好返回多语言内容。 |
+| `eggLoaderTrace` | 用于调试和追踪 Egg.js 加载器的行为，记录加载过程中的详细信息，便于排查问题。 |
 
 - 这些中间件共同构成了 Egg.js 的基础功能框架，满足了大多数 Web 应用的通用需求。
 - 这些内置中间件按照数组顺序依次执行，确保功能的正确性和依赖关系，顺序不能随意更改。
@@ -235,7 +235,7 @@ const { Controller } = require('egg')
 class HomeController extends Controller {
   async index() {
     const { ctx, app } = this
-    
+
     console.log('内置中间件列表：', app.config.coreMiddlewares)
     console.log('最终起作用的中间件处理函数列表：', app.middleware)
 

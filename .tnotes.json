@@ -1,9 +1,7 @@
 {
   "author": "Tdahuyou",
   "repoName": "TNotes.egg",
-  "keywords": [
-    "TNotes.egg"
-  ],
+  "keywords": ["TNotes.egg"],
   "sidebar_isCollapsed": true,
   "ignore_dirs": [
     ".vscode",
@@ -17,7 +15,7 @@
   "rootSidebarDir": "../TNotes/sidebars",
   "root_item": {
     "icon": {
-      "src": "https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/assets/icon--eggjs.png"
+      "src": "https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/assets/icon--eggjs.png"
     },
     "title": "egg",
     "completed_notes_count": 19,

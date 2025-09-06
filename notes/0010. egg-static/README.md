@@ -202,11 +202,11 @@ img {
 
 ::: swiper
 
-![1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-10-59-48.png)
+![1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-09-10-59-48.png)
 
-![2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-03-07.png)
+![2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-09-11-03-07.png)
 
-![3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-02-49.png)
+![3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-09-11-02-49.png)
 
 :::
 
@@ -214,11 +214,11 @@ img {
 
 ::: swiper
 
-![1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-00-13.png)
+![1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-09-11-00-13.png)
 
-![2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-00-41.png)
+![2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-09-11-00-41.png)
 
-![3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-09-11-01-51.png)
+![3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-09-11-01-51.png)
 
 :::
 

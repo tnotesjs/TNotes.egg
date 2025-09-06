@@ -59,7 +59,7 @@
 └── package.json        // 项目依赖
 ```
 
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-06-16-19-33.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-06-16-19-33.png)
 - 官方提到的“约定优于配置”，其实也就是在强调这样的目录结构。
 - 事先约定好 xxx 目录书写 xxx 逻辑，大伙都按照同样的规范来书写代码。这样别人在看你的代码或者你看别人的代码，都能够非常清晰的了解到这部分的模块是用来干啥的，能够有效降低沟通成本。
 
@@ -100,6 +100,6 @@ Egg.js 适用于以下场景：
   - 有中文和英文两个版本，翻译得都挺好。
 - https://github.com/eggjs/egg/tree/master/site/docs
   - 官方文档的 markdown 源码。
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-26-22-33-19.png)
+  - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-26-22-33-19.png)
 
 :::
