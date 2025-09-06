@@ -1,5 +1,5 @@
 {
-  "author": "Tdahuyou",
+  "author": "tnotesjs",
   "repoName": "TNotes.egg",
   "keywords": ["TNotes.egg"],
   "sidebar_isCollapsed": true,
@@ -20,7 +20,7 @@
     "title": "egg",
     "completed_notes_count": 19,
     "details": "Egg.js 笔记",
-    "link": "https://tdahuyou.github.io/TNotes.egg/",
+    "link": "https://tnotesjs.github.io/TNotes.egg/",
     "created_at": 1741248153000,
     "updated_at": 1757163545901,
     "days_since_birth": 9383
@@ -37,7 +37,7 @@
     },
     {
       "text": "📒 TNotes",
-      "link": "https://tdahuyou.github.io/notes"
+      "link": "https://tnotesjs.github.io/notes"
     },
     {
       "text": "📂 TNotes.yuque",
