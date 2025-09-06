@@ -1,4 +1,4 @@
-# [0005. egg-bin 简介](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0005.%20egg-bin%20%E7%AE%80%E4%BB%8B)
+# [0005. egg-bin 简介](https://github.com/tnotesjs/TNotes.egg/tree/main/notes/0005.%20egg-bin%20%E7%AE%80%E4%BB%8B)
 
 <!-- region:toc -->
 

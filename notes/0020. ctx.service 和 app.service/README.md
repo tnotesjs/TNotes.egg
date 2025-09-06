@@ -1,4 +1,4 @@
-# [0020. ctx.service 和 app.service](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0020.%20ctx.service%20%E5%92%8C%20app.service)
+# [0020. ctx.service 和 app.service](https://github.com/tnotesjs/TNotes.egg/tree/main/notes/0020.%20ctx.service%20%E5%92%8C%20app.service)
 
 <!-- region:toc -->
 

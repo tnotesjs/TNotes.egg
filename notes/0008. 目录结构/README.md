@@ -1,4 +1,4 @@
-# [0008. 目录结构](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0008.%20%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84)
+# [0008. 目录结构](https://github.com/tnotesjs/TNotes.egg/tree/main/notes/0008.%20%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84)
 
 <!-- region:toc -->
 

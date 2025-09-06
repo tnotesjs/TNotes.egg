@@ -1,4 +1,4 @@
-# [0009. 在 Controller 中获取上下文对象的两种方式](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0009.%20%E5%9C%A8%20Controller%20%E4%B8%AD%E8%8E%B7%E5%8F%96%E4%B8%8A%E4%B8%8B%E6%96%87%E5%AF%B9%E8%B1%A1%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F)
+# [0009. 在 Controller 中获取上下文对象的两种方式](https://github.com/tnotesjs/TNotes.egg/tree/main/notes/0009.%20%E5%9C%A8%20Controller%20%E4%B8%AD%E8%8E%B7%E5%8F%96%E4%B8%8A%E4%B8%8B%E6%96%87%E5%AF%B9%E8%B1%A1%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F)
 
 <!-- region:toc -->
 

@@ -1,4 +1,4 @@
-# [0015. app.locals 和 ctx.locals](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals)
+# [0015. app.locals 和 ctx.locals](https://github.com/tnotesjs/TNotes.egg/tree/main/notes/0015.%20app.locals%20%E5%92%8C%20ctx.locals)
 
 <!-- region:toc -->
 

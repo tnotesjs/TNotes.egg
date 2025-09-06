@@ -1,4 +1,4 @@
-# [0003. egg-init vs. egg-bin](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin)
+# [0003. egg-init vs. egg-bin](https://github.com/tnotesjs/TNotes.egg/tree/main/notes/0003.%20egg-init%20vs.%20egg-bin)
 
 <!-- region:toc -->
 

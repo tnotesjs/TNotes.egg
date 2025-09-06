@@ -1,4 +1,4 @@
-# [0006. 不借助脚手架实现 Hello World 示例](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0006.%20%E4%B8%8D%E5%80%9F%E5%8A%A9%E8%84%9A%E6%89%8B%E6%9E%B6%E5%AE%9E%E7%8E%B0%20Hello%20World%20%E7%A4%BA%E4%BE%8B)
+# [0006. 不借助脚手架实现 Hello World 示例](https://github.com/tnotesjs/TNotes.egg/tree/main/notes/0006.%20%E4%B8%8D%E5%80%9F%E5%8A%A9%E8%84%9A%E6%89%8B%E6%9E%B6%E5%AE%9E%E7%8E%B0%20Hello%20World%20%E7%A4%BA%E4%BE%8B)
 
 <!-- region:toc -->
 

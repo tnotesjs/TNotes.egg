@@ -1,4 +1,4 @@
-# [0010. egg-static](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0010.%20egg-static)
+# [0010. egg-static](https://github.com/tnotesjs/TNotes.egg/tree/main/notes/0010.%20egg-static)
 
 <!-- region:toc -->
 

@@ -1,4 +1,4 @@
-# [0018. ctx.model 和 app.model](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0018.%20ctx.model%20%E5%92%8C%20app.model)
+# [0018. ctx.model 和 app.model](https://github.com/tnotesjs/TNotes.egg/tree/main/notes/0018.%20ctx.model%20%E5%92%8C%20app.model)
 
 <!-- region:toc -->
 

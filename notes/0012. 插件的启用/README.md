@@ -1,4 +1,4 @@
-# [0012. 插件的启用](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0012.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E5%90%AF%E7%94%A8)
+# [0012. 插件的启用](https://github.com/tnotesjs/TNotes.egg/tree/main/notes/0012.%20%E6%8F%92%E4%BB%B6%E7%9A%84%E5%90%AF%E7%94%A8)
 
 <!-- region:toc -->
 

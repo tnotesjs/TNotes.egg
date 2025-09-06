@@ -1,4 +1,4 @@
-# [0016. 了解 Egg.js 核心功能模块都涵盖哪些内容](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0016.%20%E4%BA%86%E8%A7%A3%20Egg.js%20%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E9%83%BD%E6%B6%B5%E7%9B%96%E5%93%AA%E4%BA%9B%E5%86%85%E5%AE%B9)
+# [0016. 了解 Egg.js 核心功能模块都涵盖哪些内容](https://github.com/tnotesjs/TNotes.egg/tree/main/notes/0016.%20%E4%BA%86%E8%A7%A3%20Egg.js%20%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E9%83%BD%E6%B6%B5%E7%9B%96%E5%93%AA%E4%BA%9B%E5%86%85%E5%AE%B9)
 
 <!-- region:toc -->
 

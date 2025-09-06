@@ -1,4 +1,4 @@
-# [0019. Egg.js 中的 controller、service、model 模块命名解析策略](https://github.com/Tdahuyou/TNotes.egg/tree/main/notes/0019.%20Egg.js%20%E4%B8%AD%E7%9A%84%20controller%E3%80%81service%E3%80%81model%20%E6%A8%A1%E5%9D%97%E5%91%BD%E5%90%8D%E8%A7%A3%E6%9E%90%E7%AD%96%E7%95%A5)
+# [0019. Egg.js 中的 controller、service、model 模块命名解析策略](https://github.com/tnotesjs/TNotes.egg/tree/main/notes/0019.%20Egg.js%20%E4%B8%AD%E7%9A%84%20controller%E3%80%81service%E3%80%81model%20%E6%A8%A1%E5%9D%97%E5%91%BD%E5%90%8D%E8%A7%A3%E6%9E%90%E7%AD%96%E7%95%A5)
 
 <!-- region:toc -->
 
