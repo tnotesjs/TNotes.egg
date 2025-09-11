@@ -24,7 +24,7 @@
     "details": "Egg.js 笔记",
     "link": "https://tnotesjs.github.io/TNotes.egg/",
     "created_at": 1741248153000,
-    "updated_at": 1757172129734,
+    "updated_at": 1757554015861,
     "days_since_birth": 9383
   },
   "port": 9383,
@@ -39,7 +39,7 @@
     },
     {
       "text": "📒 TNotes",
-      "link": "https://tnotesjs.github.io/notes"
+      "link": "https://tnotesjs.github.io/TNotes"
     },
     {
       "text": "📂 TNotes.yuque",
