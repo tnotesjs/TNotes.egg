@@ -1,9 +1,7 @@
 {
   "author": "tnotesjs",
   "repoName": "TNotes.egg",
-  "keywords": [
-    "TNotes.egg"
-  ],
+  "keywords": ["TNotes.egg"],
   "sidebar_isCollapsed": true,
   "ignore_dirs": [
     ".vscode",
@@ -62,8 +60,8 @@
       }
     },
     {
-      "ariaLabel": "TNotes.template github 仓库链接",
-      "link": "https://github.com/tnotesjs/TNotes.template",
+      "ariaLabel": "TNotes.egg github 仓库链接",
+      "link": "https://github.com/tnotesjs/TNotes.egg",
       "icon": "github"
     }
   ],
