@@ -1,7 +1,9 @@
 {
   "author": "tnotesjs",
   "repoName": "TNotes.egg",
-  "keywords": ["TNotes.egg"],
+  "keywords": [
+    "TNotes.egg"
+  ],
   "sidebar_isCollapsed": true,
   "ignore_dirs": [
     ".vscode",
@@ -22,7 +24,7 @@
     "details": "Egg.js 笔记",
     "link": "https://tnotesjs.github.io/TNotes.egg/",
     "created_at": 1741248153000,
-    "updated_at": 1757554015861,
+    "updated_at": 1758172024488,
     "days_since_birth": 9383
   },
   "port": 9383,
