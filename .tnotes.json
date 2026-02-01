@@ -33,12 +33,13 @@
       "25.10": 19,
       "25.11": 19,
       "25.12": 19,
-      "26.01": 19
+      "26.01": 19,
+      "26.02": 19
     },
     "details": "Egg.js 笔记",
     "link": "https://tnotesjs.github.io/TNotes.egg/",
     "created_at": 1741248153000,
-    "updated_at": 1767227719996,
+    "updated_at": 1769948357837,
     "days_since_birth": 9383
   },
   "port": 9383,
