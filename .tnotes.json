@@ -21,10 +21,6 @@
     },
     "title": "egg",
     "completed_notes_count": {
-      "25.01": 0,
-      "25.02": 0,
-      "25.03": 16,
-      "25.04": 17,
       "25.05": 19,
       "25.06": 19,
       "25.07": 19,
@@ -35,13 +31,14 @@
       "25.12": 19,
       "26.01": 19,
       "26.02": 19,
-      "26.03": 19
+      "26.03": 19,
+      "26.04": 19
     },
     "details": "Egg.js 笔记",
     "link": "https://tnotesjs.github.io/TNotes.egg/",
     "created_at": 1741248153000,
-    "updated_at": 1772368237472,
-    "days_since_birth": 9383
+    "updated_at": 1775000889000,
+    "days_since_birth": 9774
   },
   "port": 9383,
   "menuItems": [
