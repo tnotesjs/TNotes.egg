@@ -33,23 +33,20 @@
       "26.02": 19,
       "26.03": 19,
       "26.04": 19,
+      "26.05": 19,
       "26.06": 19
     },
     "details": "Egg.js 笔记",
     "link": "https://tnotesjs.github.io/TNotes.egg/",
     "created_at": 1741248153000,
-    "updated_at": 1780376821000,
-    "days_since_birth": 9836
+    "updated_at": 1782714613000,
+    "days_since_birth": 9863
   },
   "port": 9383,
   "menuItems": [
     {
       "text": "🏠 Home",
       "link": "/"
-    },
-    {
-      "text": "⚙️ Settings",
-      "link": "/Settings"
     },
     {
       "text": "📒 TNotes",
