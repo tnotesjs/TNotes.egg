@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📒 概述](#1--概述)
-- [2. 💻 demos.1 - Hello World 示例](#2--demos1---hello-world-示例)
+- [1. 概述](#1-概述)
+- [2. demos.1 - Hello World 示例](#2-demos1---hello-world-示例)
 
 <!-- endregion:toc -->
 
-## 1. 📒 概述
+## 1. 概述
 
 - 搭建 egg 工程的两种方式：
   - 1️⃣ 使用 egg 脚手架 `egg-init`。
@@ -16,7 +16,7 @@
 - 本节介绍的是如何不借助 `egg-init` 脚手架来实现一个 Hello World 的 demo。
 - 按照下面记录的流程，安装好必要的包，创建好相应的目录结构，简单写几行代码就完事儿了。
 
-## 2. 💻 demos.1 - Hello World 示例
+## 2. demos.1 - Hello World 示例
 
 - 安装依赖，并初始化目录结构：
 

@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 🔗 Egg.js 插件列表](#1--eggjs-插件列表)
-- [2. 📒 Egg.js 插件命名规范](#2--eggjs-插件命名规范)
+- [1. Egg.js 插件列表](#1-eggjs-插件列表)
+- [2. Egg.js 插件命名规范](#2-eggjs-插件命名规范)
 
 <!-- endregion:toc -->
 
-## 1. 🔗 Egg.js 插件列表
+## 1. Egg.js 插件列表
 
 https://github.com/search?q=topic%3Aegg-plugin&type=Repositories
 
@@ -26,7 +26,7 @@ https://github.com/search?q=topic%3Aegg-plugin&type=Repositories
 >   - [view](https://github.com/eggjs/egg-view) 模板引擎
 > - 更多社区的插件可以在 GitHub 上搜索 [egg-plugin](https://github.com/topics/egg-plugin)。
 
-## 2. 📒 Egg.js 插件命名规范
+## 2. Egg.js 插件命名规范
 
 - 从插件列表中罗列的插件命名来看，会发现它们大多都是 `egg-xxx` 开头，然后后面跟一个插件名称，比如：
   - 静态资源映射的插件 `egg-static`

@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 🔗 Egg.js 基础功能](#1--eggjs-基础功能)
-- [2. 📒 基础功能列表](#2--基础功能列表)
+- [1. Egg.js 基础功能](#1-eggjs-基础功能)
+- [2. 基础功能列表](#2-基础功能列表)
 
 <!-- endregion:toc -->
 
-## 1. 🔗 Egg.js 基础功能
+## 1. Egg.js 基础功能
 
 https://www.eggjs.org/zh-CN/basics
 
@@ -17,7 +17,7 @@ https://www.eggjs.org/zh-CN/basics
 - 在写这篇笔记时，官方文档中提到的“基础功能”模块主要有这些内容：
 - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-08-22-49-40.png) :::
 
-## 2. 📒 基础功能列表
+## 2. 基础功能列表
 
 - 目录结构
 - 内置对象

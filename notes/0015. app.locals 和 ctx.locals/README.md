@@ -2,22 +2,22 @@
 
 <!-- region:toc -->
 
-- [1. 🔗 Egg.js 官方文档 > 核心功能 > View 模板渲染](#1--eggjs-官方文档--核心功能--view-模板渲染)
-- [2. 📒 `app.locals` 和 `ctx.locals` 概述](#2--applocals-和-ctxlocals-概述)
-- [3. 🤔 `app.locals` 和 `ctx.locals` 只能用在 View 模板渲染中吗？](#3--applocals-和-ctxlocals-只能用在-view-模板渲染中吗)
-- [4. 📒 `app.locals` - 全局共享数据](#4--applocals---全局共享数据)
-- [5. 📒 `ctx.locals` - 跨中间件、控制器通信](#5--ctxlocals---跨中间件控制器通信)
-- [6. 📒 自定义模块](#6--自定义模块)
-- [7. 📒 最佳实践建议](#7--最佳实践建议)
+- [1. Egg.js 官方文档 > 核心功能 > View 模板渲染](#1-eggjs-官方文档--核心功能--view-模板渲染)
+- [2. `app.locals` 和 `ctx.locals` 概述](#2-applocals-和-ctxlocals-概述)
+- [3. `app.locals` 和 `ctx.locals` 只能用在 View 模板渲染中吗？](#3-applocals-和-ctxlocals-只能用在-view-模板渲染中吗)
+- [4. `app.locals` - 全局共享数据](#4-applocals---全局共享数据)
+- [5. `ctx.locals` - 跨中间件、控制器通信](#5-ctxlocals---跨中间件控制器通信)
+- [6. 自定义模块](#6-自定义模块)
+- [7. 最佳实践建议](#7-最佳实践建议)
 
 <!-- endregion:toc -->
 
-## 1. 🔗 Egg.js 官方文档 > 核心功能 > View 模板渲染
+## 1. Egg.js 官方文档 > 核心功能 > View 模板渲染
 
 - https://www.eggjs.org/zh-CN/core/view
 - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-11-22-28-22.png)
 
-## 2. 📒 `app.locals` 和 `ctx.locals` 概述
+## 2. `app.locals` 和 `ctx.locals` 概述
 
 - 在 Egg.js 中，`app.locals` 和 `ctx.locals` 主要用于 View 模板渲染的场景，并且官方文档也只有在“View 模板渲染”的文档中才提到它们。
 - **`app.locals`**
@@ -62,13 +62,13 @@ class HomeController extends Controller {
 
 :::
 
-## 3. 🤔 `app.locals` 和 `ctx.locals` 只能用在 View 模板渲染中吗？
+## 3. `app.locals` 和 `ctx.locals` 只能用在 View 模板渲染中吗？
 
 - 虽然 `app.locals` 和 `ctx.locals` 最常见的用途是为模板渲染提供数据，但它们并不仅限于此。
 - **`app.locals`** 主要用于存储全局共享的数据，适合在模板渲染或其他需要全局访问的场景中使用。
 - **`ctx.locals`** 主要用于存储与当前请求相关的数据，适合在模板渲染、中间件通信等场景中使用。
 
-## 4. 📒 `app.locals` - 全局共享数据
+## 4. `app.locals` - 全局共享数据
 
 - `app.locals` 适合用来在应用程序启动时，注入一些“全局级别的”共享数据。
 
@@ -150,7 +150,7 @@ app.use(async (ctx, next) => {
 
 :::
 
-## 5. 📒 `ctx.locals` - 跨中间件、控制器通信
+## 5. `ctx.locals` - 跨中间件、控制器通信
 
 - `ctx.locals` 是请求独立的，在每次请求来的时候，都会重新走一遍，不同的请求之间互相没有关联。
 - `ctx.locals` 适合用来在某次请求的整体流程中，在请求命中的中间件以及控制器之间传递一些“请求级别的”共享数据。
@@ -255,7 +255,7 @@ class DataController extends Controller {
 
 :::
 
-## 6. 📒 自定义模块
+## 6. 自定义模块
 
 - 注：这里提到的“全局配置”主要是指一些在应用中写死的常量值，如数据库连接信息、环境变量等。
 - 虽然你确实可以将这些常量配置一并写到 `app.locals` 身上，但是在实际开发中将这些写死的值单独封装到一个模块中获取更加合适。
@@ -313,7 +313,7 @@ exports.logger = {
   - **动态全局数据**：使用 `app.locals`，尤其是需要在运行时更新的配置。
   - **模板渲染上下文**：如果模板引擎直接依赖 `app.locals`，可以保留它以简化代码。
 
-## 7. 📒 最佳实践建议
+## 7. 最佳实践建议
 
 - **全局级别的静态配置**：通过模块导出（如 `constants.js`）。
 - **全局级别的动态数据**：通过 `app.locals` 存储。

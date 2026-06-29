@@ -2,11 +2,11 @@
 
 <!-- region:toc -->
 
-- [1. 📒 插件的配置说明](#1--插件的配置说明)
+- [1. 插件的配置说明](#1-插件的配置说明)
 
 <!-- endregion:toc -->
 
-## 1. 📒 插件的配置说明
+## 1. 插件的配置说明
 
 - `xxx` 插件的配置包括俩部分：
   - 1️⃣ 是否启用 `xxx` 插件
@@ -27,7 +27,7 @@ exports.mysql = {
     port: '3306',
     user: 'test_user',
     password: 'test_password',
-    database: 'test'
-  }
-};
+    database: 'test',
+  },
+}
 ```

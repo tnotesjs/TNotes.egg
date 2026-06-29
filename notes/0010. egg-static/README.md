@@ -2,26 +2,26 @@
 
 <!-- region:toc -->
 
-- [1. 🔗 `egg-static` github](#1--egg-static-github)
-- [2. 🤔 为什么 Egg.js 能够映射静态资源？](#2--为什么-eggjs-能够映射静态资源)
-- [3. 📒 `egg-static` 简介](#3--egg-static-简介)
-- [4. 📒 `egg-static` 核心功能](#4--egg-static-核心功能)
-- [5. 📒 `egg-static` 工作原理简介](#5--egg-static-工作原理简介)
-- [6. 📒 使用 `egg-static` 的一些注意事项](#6--使用-egg-static-的一些注意事项)
-- [7. 💻 demos.1 - `egg-static` 的基本使用](#7--demos1---egg-static-的基本使用)
+- [1. `egg-static` github](#1-egg-static-github)
+- [2. 为什么 Egg.js 能够映射静态资源？](#2-为什么-eggjs-能够映射静态资源)
+- [3. `egg-static` 简介](#3-egg-static-简介)
+- [4. `egg-static` 核心功能](#4-egg-static-核心功能)
+- [5. `egg-static` 工作原理简介](#5-egg-static-工作原理简介)
+- [6. 使用 `egg-static` 的一些注意事项](#6-使用-egg-static-的一些注意事项)
+- [7. demos.1 - `egg-static` 的基本使用](#7-demos1---egg-static-的基本使用)
 
 <!-- endregion:toc -->
 
-## 1. 🔗 `egg-static` github
+## 1. `egg-static` github
 
 https://github.com/eggjs/static
 
-## 2. 🤔 为什么 Egg.js 能够映射静态资源？
+## 2. 为什么 Egg.js 能够映射静态资源？
 
 - Egg.js 之所以能够映射静态资源，并非它本身具有这样的能力，而是它在内部使用了插件 `egg-static`。
 - Egg.js 本身其实只是搭建了一个框架，制定了一套规范，其他的额外功能（静态资源映射、定时任务、消息订阅、后台逻辑等等）都是靠各种插件完成的。
 
-## 3. 📒 `egg-static` 简介
+## 3. `egg-static` 简介
 
 - **`egg-static` 是 Egg.js 内置的静态资源服务插件**，遵循约定优于配置的原则，默认提供简单易用的静态资源服务。
 - `egg-static` 是基于 [@eggjs/koa-static-cache](https://github.com/eggjs/koa-static-cache) 实现的。
@@ -30,7 +30,7 @@ https://github.com/eggjs/static
 - `egg-static` 适合在开发环境和小型项目中使用，但在生产环境中建议结合 Nginx 或 CDN 提高性能。
 - 通过配置文件，可以灵活地自定义静态资源目录、URL 前缀、缓存策略等。
 
-## 4. 📒 `egg-static` 核心功能
+## 4. `egg-static` 核心功能
 
 - **提供静态资源服务**
   - `egg-static` 会自动将指定目录中的静态文件映射到 HTTP 请求路径。
@@ -47,7 +47,7 @@ https://github.com/eggjs/static
     - 文件匹配规则
     - ……
 
-## 5. 📒 `egg-static` 工作原理简介
+## 5. `egg-static` 工作原理简介
 
 `egg-static` 插件的核心是一个 Koa 中间件，它的工作流程如下：
 
@@ -60,7 +60,7 @@ https://github.com/eggjs/static
 - **继续处理**：
   - 如果未找到文件，中间件会调用 `next()`，将请求交给后续的中间件或 Controller 处理。
 
-## 6. 📒 使用 `egg-static` 的一些注意事项
+## 6. 使用 `egg-static` 的一些注意事项
 
 - **安全性问题**
   - 静态资源目录中的文件会直接暴露给客户端，因此不要将敏感文件（如配置文件、源码等）放入静态资源目录。
@@ -72,7 +72,7 @@ https://github.com/eggjs/static
   - 如果你修改了静态资源目录，请确保路径配置正确，否则可能会导致文件无法访问。
   - 如果没有特殊需求，通常是不需要修改静态资源目录的，就默认的 `public` 即可。
 
-## 7. 💻 demos.1 - `egg-static` 的基本使用
+## 7. demos.1 - `egg-static` 的基本使用
 
 - 实用 `npm init egg` 快速初始化一个简单（simple）的 Egg.js 工程结构。
 

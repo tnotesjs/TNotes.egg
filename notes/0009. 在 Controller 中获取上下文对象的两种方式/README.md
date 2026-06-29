@@ -2,11 +2,11 @@
 
 <!-- region:toc -->
 
-- [1. 💻 demos.1 - 在 Controller 中获取上下文对象的两种方式](#1--demos1---在-controller-中获取上下文对象的两种方式)
+- [1. demos.1 - 在 Controller 中获取上下文对象的两种方式](#1-demos1---在-controller-中获取上下文对象的两种方式)
 
 <!-- endregion:toc -->
 
-## 1. 💻 demos.1 - 在 Controller 中获取上下文对象的两种方式
+## 1. demos.1 - 在 Controller 中获取上下文对象的两种方式
 
 1. 通过 `this.ctx` 获取上下文对象
 2. 通过注入的参数 `ctx` 获取上下文对象

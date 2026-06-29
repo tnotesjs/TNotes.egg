@@ -2,18 +2,18 @@
 
 <!-- region:toc -->
 
-- [1. 🔗 `egg-init` 的 Github 仓库链接](#1--egg-init-的-github-仓库链接)
-- [2. 📒 `egg-init` 概述](#2--egg-init-概述)
-- [3. 📒 boilerplate 样板项目](#3--boilerplate-样板项目)
-- [4. 📒 `npm init egg` vs. `egg-init`](#4--npm-init-egg-vs-egg-init)
+- [1. `egg-init` 的 Github 仓库链接](#1-egg-init-的-github-仓库链接)
+- [2. `egg-init` 概述](#2-egg-init-概述)
+- [3. boilerplate 样板项目](#3-boilerplate-样板项目)
+- [4. `npm init egg` vs. `egg-init`](#4-npm-init-egg-vs-egg-init)
 
 <!-- endregion:toc -->
 
-## 1. 🔗 `egg-init` 的 Github 仓库链接
+## 1. `egg-init` 的 Github 仓库链接
 
 - https://github.com/eggjs/egg-init
 
-## 2. 📒 `egg-init` 概述
+## 2. `egg-init` 概述
 
 - `egg-init` 是一个脚手架工具，用于快速生成 Egg.js 项目的初始结构。
 - 它帮助开发者快速搭建项目目录、配置文件和基础代码，从而减少手动创建文件的工作量。
@@ -37,7 +37,7 @@ egg-init my-app --type=simple
 - **🤔 type 的值除了 simple 还能写什么呢？**
 - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-08-09-57-27.png)
 
-## 3. 📒 boilerplate 样板项目
+## 3. boilerplate 样板项目
 
 ::: code-group
 
@@ -213,7 +213,7 @@ https://npm.im/egg-static
 - 在你执行 `npm init egg --type=simple` 命令的时候，会提醒你选择模板类型。
   - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-09-08-58-15.png)
 
-## 4. 📒 `npm init egg` vs. `egg-init`
+## 4. `npm init egg` vs. `egg-init`
 
 - **🤔 官方推荐的 `npm init egg` 和本节提到的 `egg-init` 之间有什么关联吗？**
 

@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 🔗 egg-bin 的 Github 仓库链接](#1--egg-bin-的-github-仓库链接)
-- [2. 📒 `egg-bin` 概述](#2--egg-bin-概述)
+- [1. egg-bin 的 Github 仓库链接](#1-egg-bin-的-github-仓库链接)
+- [2. `egg-bin` 概述](#2-egg-bin-概述)
 
 <!-- endregion:toc -->
 
-## 1. 🔗 egg-bin 的 Github 仓库链接
+## 1. egg-bin 的 Github 仓库链接
 
 - https://github.com/eggjs/bin
 
-## 2. 📒 `egg-bin` 概述
+## 2. `egg-bin` 概述
 
 - `egg-bin` 是一个开发和调试工具，主要用于本地开发、测试和运行 Egg.js 应用程序。
 - 它是 Egg.js 官方提供的 CLI 工具，集成在项目中，而不是全局安装。

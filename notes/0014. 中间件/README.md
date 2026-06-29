@@ -2,13 +2,13 @@
 
 <!-- region:toc -->
 
-- [1. 📒 中间件概述](#1--中间件概述)
-- [2. 💻 demos.1 - 认识默认的内置中间件](#2--demos1---认识默认的内置中间件)
-- [3. 💻 demos.2 - 🧅 洋葱模型 - 理解中间件的执行顺序](#3--demos2----洋葱模型---理解中间件的执行顺序)
+- [1. 中间件概述](#1-中间件概述)
+- [2. demos.1 - 认识默认的内置中间件](#2-demos1---认识默认的内置中间件)
+- [3. demos.2 - 🧅 洋葱模型 - 理解中间件的执行顺序](#3-demos2----洋葱模型---理解中间件的执行顺序)
 
 <!-- endregion:toc -->
 
-## 1. 📒 中间件概述
+## 1. 中间件概述
 
 - Egg.js 中的中间件（Middleware）是其核心机制之一，用于在请求和响应的生命周期中插入自定义逻辑。
 - **🧅 洋葱模型**
@@ -106,7 +106,7 @@ module.exports = (app) => {
   - 这些内置中间件将会和自定义的中间件配置合并，最终形成一个真正的中间件函数数组：`app.middleware`。
     - 最终起作用的是该数组中的一个个中间件函数。
 
-## 2. 💻 demos.1 - 认识默认的内置中间件
+## 2. demos.1 - 认识默认的内置中间件
 
 - **打印默认的内置中间件**
 - 使用 `npm init egg` 快速初始化一个 `simple` Egg.js 工程，然后在 `app/controller/home.js` 中打印一下 `app.config.coreMiddlewares` 查看 Egg.js 默认的内置中间件都有哪些。
@@ -119,7 +119,7 @@ class HomeController extends Controller {
     const { ctx, app } = this
     console.log(
       '内置中间件 - app.config.coreMiddlewares',
-      app.config.coreMiddlewares
+      app.config.coreMiddlewares,
     )
     // output:
     // 内置中间件 - app.config.coreMiddlewares [
@@ -158,7 +158,7 @@ module.exports = HomeController
 - 这些内置中间件按照数组顺序依次执行，确保功能的正确性和依赖关系，顺序不能随意更改。
 - 我们可以通过配置文件 `config/config.default.js` 调整或禁用部分中间件。
 
-## 3. 💻 demos.2 - 🧅 洋葱模型 - 理解中间件的执行顺序
+## 3. demos.2 - 🧅 洋葱模型 - 理解中间件的执行顺序
 
 ::: code-group
 

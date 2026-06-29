@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
-- [2. 📒 `app.model`](#2--appmodel)
-- [3. 📒 `ctx.model`](#3--ctxmodel)
-- [4. 🤔 问：为什么设计成两个接口？](#4--问为什么设计成两个接口)
-- [5. 🤔 问：为了保持统一，在整个项目中全都使用 `ctx.model.xxx` 或者 `app.model.xxx` 可以吗？](#5--问为了保持统一在整个项目中全都使用-ctxmodelxxx-或者-appmodelxxx-可以吗)
+- [1. 概述](#1-概述)
+- [2. `app.model`](#2-appmodel)
+- [3. `ctx.model`](#3-ctxmodel)
+- [4. 问：为什么设计成两个接口？](#4-问为什么设计成两个接口)
+- [5. 问：为了保持统一，在整个项目中全都使用 `ctx.model.xxx` 或者 `app.model.xxx` 可以吗？](#5-问为了保持统一在整个项目中全都使用-ctxmodelxxx-或者-appmodelxxx-可以吗)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 概述
 
 - 在 Egg.js 中，`app.model` 和 `ctx.model` 都是用来访问模型（Model）的，但它们的 **使用场景和来源不同**。
   - `ctx.model` 是 `app.model` 的一个便捷别名，在 Controller 中使用更方便；
@@ -23,7 +23,7 @@
 | 使用场景 | Service、Helper、Middleware 等 | Controller |
 | 推荐用法 | ✅ Service 中使用 `app.model` | ✅ Controller 中使用 `ctx.model` |
 
-## 2. 📒 `app.model`
+## 2. `app.model`
 
 - `app.model`
   - `app` 是一个 `Application` 实例。
@@ -44,7 +44,7 @@ class CourseCategoryService extends Service {
 }
 ```
 
-## 3. 📒 `ctx.model`
+## 3. `ctx.model`
 
 - `ctx.model`
   - `ctx` 是 `Context` 对象，代表一次请求的上下文。
@@ -64,7 +64,7 @@ class CourseCategoryController extends Controller {
 }
 ```
 
-## 4. 🤔 问：为什么设计成两个接口？
+## 4. 问：为什么设计成两个接口？
 
 - 可能是为了适应 Egg.js 的分层结构设计思想：
   - `app`：全局应用对象，适用于不需要依赖请求上下文的逻辑（如定时任务、后台服务）
@@ -73,7 +73,7 @@ class CourseCategoryController extends Controller {
   - 在 **Controller** 中推荐使用 `ctx.model`
   - 在 **Service** 中推荐使用 `app.model`
 
-## 5. 🤔 问：为了保持统一，在整个项目中全都使用 `ctx.model.xxx` 或者 `app.model.xxx` 可以吗？
+## 5. 问：为了保持统一，在整个项目中全都使用 `ctx.model.xxx` 或者 `app.model.xxx` 可以吗？
 
 - 可以
 - 不过从语义层面来讲，跟单次请求相关的逻辑应该使用 `ctx.model`（请求级），跟服务应用相关的应该使用 `app.model`（全局级）。

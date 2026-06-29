@@ -2,11 +2,11 @@
 
 <!-- region:toc -->
 
-- [1. 📒 快速了解 Egg.js 基本目录结构](#1--快速了解-eggjs-基本目录结构)
+- [1. 快速了解 Egg.js 基本目录结构](#1-快速了解-eggjs-基本目录结构)
 
 <!-- endregion:toc -->
 
-## 1. 📒 快速了解 Egg.js 基本目录结构
+## 1. 快速了解 Egg.js 基本目录结构
 
 ```bash
 egg-project

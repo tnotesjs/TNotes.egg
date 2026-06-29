@@ -2,17 +2,17 @@
 
 <!-- region:toc -->
 
-- [1. 📒 概述](#1--概述)
-- [2. 💻 准备必要的环境](#2--准备必要的环境)
-- [3. 💻 安装 Egg.js 脚手架工具](#3--安装-eggjs-脚手架工具)
-- [4. 💻 项目初始化](#4--项目初始化)
-- [5. 💻 demos.1 - 实现 `/hello` 接口](#5--demos1---实现-hello-接口)
-- [6. 📒 理解 `Router` 和 `Controller`](#6--理解-router-和-controller)
-- [7. 📒 理解 `package.json` 中的 `start`、`stop`、`dev` 命令](#7--理解-packagejson-中的-startstopdev-命令)
+- [1. 概述](#1-概述)
+- [2. 准备必要的环境](#2-准备必要的环境)
+- [3. 安装 Egg.js 脚手架工具](#3-安装-eggjs-脚手架工具)
+- [4. 项目初始化](#4-项目初始化)
+- [5. demos.1 - 实现 `/hello` 接口](#5-demos1---实现-hello-接口)
+- [6. 理解 `Router` 和 `Controller`](#6-理解-router-和-controller)
+- [7. 理解 `package.json` 中的 `start`、`stop`、`dev` 命令](#7-理解-packagejson-中的-startstopdev-命令)
 
 <!-- endregion:toc -->
 
-## 1. 📒 概述
+## 1. 概述
 
 - 这篇笔记介绍了基于 Egg.js 搭建一个简单的 "Hello World" 示例的详细步骤。
 - 在项目搭建的过程中，会用到官方的脚手架 `egg-init`。
@@ -24,7 +24,7 @@
   - 了解 router 和 controller 的基本作用和写法
   - 了解几个默认的命令的基本使用
 
-## 2. 💻 准备必要的环境
+## 2. 准备必要的环境
 
 - 在开始之前，请确保你的开发环境满足以下要求：
   1. 已安装 Node.js（建议使用 LTS 版本，如 v16、v18、v20）。
@@ -38,7 +38,7 @@ npm -v
 
 - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-08-00-06-38.png)
 
-## 3. 💻 安装 Egg.js 脚手架工具
+## 3. 安装 Egg.js 脚手架工具
 
 - Egg.js 提供了一个官方的脚手架工具 `egg-init`，用于快速生成项目结构。
 - 运行以下命令全局安装 `egg-init`：
@@ -53,7 +53,7 @@ egg-init --version
 - `2025年3月6日16:51:12` 目前的最新版本是 `3.1.0`。
 - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-06-16-51-05.png)
 
-## 4. 💻 项目初始化
+## 4. 项目初始化
 
 - 使用 `egg-init` 创建一个新的 Egg.js 项目。假设项目名称为 `helloWorld`：
 
@@ -84,7 +84,7 @@ npm run dev
 - 其实从初始化好的工程来看，已经实现了一个默认的首页访问接口 `/`。
 - 要实现本节要求的 demo，找葫芦画瓢新增一个 `/hello` 接口即可，写起来也没几行代码。
 
-## 5. 💻 demos.1 - 实现 `/hello` 接口
+## 5. demos.1 - 实现 `/hello` 接口
 
 > 注：其中高亮的部分是新增的，其余是初始化好的工程中默认的内容。
 
@@ -127,7 +127,7 @@ module.exports = HomeController
 - 现在我们去访问 `http://127.0.0.1:7001/hello` 就能看到 "Hello World" 了。
 - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-08-00-17-57.png)
 
-## 6. 📒 理解 `Router` 和 `Controller`
+## 6. 理解 `Router` 和 `Controller`
 
 - 完成上述步骤后，项目的目录结构如下：
 
@@ -161,7 +161,7 @@ module.exports = HomeController
   - 在这个 demo 中没有体现出来，它是业务逻辑的核心，负责封装复杂的业务处理逻辑，供 Controller 调用。
   - 跟具体业务相关的代码直接丢到这里边统一管理。
 
-## 7. 📒 理解 `package.json` 中的 `start`、`stop`、`dev` 命令
+## 7. 理解 `package.json` 中的 `start`、`stop`、`dev` 命令
 
 | 命令 | 工具 | 运行模式 | 是否后台运行 | 热更新支持 | 使用场景 |
 | --- | --- | --- | --- | --- | --- |

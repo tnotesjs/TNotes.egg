@@ -2,11 +2,11 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 概述](#1-概述)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 概述
 
 - `ctx.service` 和 `app.service` 在 Egg.js 中是不一样的，虽然它们都指向项目中的 Service 类，但使用方式和含义不同。
 - `ctx.service`

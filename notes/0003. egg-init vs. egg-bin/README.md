@@ -2,26 +2,26 @@
 
 <!-- region:toc -->
 
-- [1. 🔗 egg-init、egg-bin 的 Github 仓库链接](#1--egg-initegg-bin-的-github-仓库链接)
-- [2. 📒 对比 `egg-init` 和 `egg-bin`](#2--对比-egg-init-和-egg-bin)
+- [1. egg-init、egg-bin 的 Github 仓库链接](#1-egg-initegg-bin-的-github-仓库链接)
+- [2. 对比 `egg-init` 和 `egg-bin`](#2-对比-egg-init-和-egg-bin)
 
 <!-- endregion:toc -->
 
-## 1. 🔗 egg-init、egg-bin 的 Github 仓库链接
+## 1. egg-init、egg-bin 的 Github 仓库链接
 
 - https://github.com/eggjs/egg-init
 - https://github.com/eggjs/bin
 
-## 2. 📒 对比 `egg-init` 和 `egg-bin`
+## 2. 对比 `egg-init` 和 `egg-bin`
 
-| 特性             | `egg-init`                                           | `egg-bin`                                             |
-| ---------------- | ---------------------------------------------------- | ----------------------------------------------------- |
-| **功能定位**     | 项目初始化工具                                       | 开发、调试和测试工具                                  |
-| **安装方式**     | 通常会全局安装 (`npm install egg-init -g`)           | 通常会项目本地安装 (`npm install egg-bin --save-dev`) |
-| **使用场景**     | 创建新项目                                           | 开发、调试、测试现有项目                              |
-| **是否依赖项目** | 不依赖具体项目                                       | 必须在 Egg.js 项目中使用                              |
-| **主要命令**     | `egg-init <project-name>` 根据提示完成项目初始化工作 | `egg-bin dev`, `egg-bin test`, `egg-bin debug` 等     |
-| **生命周期阶段** | 项目启动阶段                                         | 项目开发和测试阶段                                    |
+| 特性 | `egg-init` | `egg-bin` |
+| --- | --- | --- |
+| **功能定位** | 项目初始化工具 | 开发、调试和测试工具 |
+| **安装方式** | 通常会全局安装 (`npm install egg-init -g`) | 通常会项目本地安装 (`npm install egg-bin --save-dev`) |
+| **使用场景** | 创建新项目 | 开发、调试、测试现有项目 |
+| **是否依赖项目** | 不依赖具体项目 | 必须在 Egg.js 项目中使用 |
+| **主要命令** | `egg-init <project-name>` 根据提示完成项目初始化工作 | `egg-bin dev`, `egg-bin test`, `egg-bin debug` 等 |
+| **生命周期阶段** | 项目启动阶段 | 项目开发和测试阶段 |
 
 - `egg-init` 👉 **项目的初始化阶段**
   - 如果你需要从零开始创建一个 Egg.js 项目，请使用 `egg-init`。
