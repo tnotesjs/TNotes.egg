@@ -1,14 +1,14 @@
-- 1. 🚀 Quick Start
+- 🚀 Quick Start
   - [x] 0001. egg 简介
   - [x] 0002. Hello World 示例
   - [x] 0003. egg-init vs. egg-bin
   - [x] 0004. egg-init 简介
   - [x] 0005. egg-bin 简介
   - [x] 0006. 不借助脚手架实现 Hello World 示例
-- 2. 核心功能
+- 核心功能
   - [x] 0016. 了解 Egg.js 核心功能模块都涵盖哪些内容
   - [x] 0015. app.locals 和 ctx.locals
-- 3. 基础功能
+- 基础功能
   - [x] 0007. 了解 Egg.js 基础功能模块都涵盖哪些内容
   - [x] 0008. 目录结构
   - [x] 0009. 在 Controller 中获取上下文对象的两种方式
@@ -17,11 +17,11 @@
   - [x] 0012. 插件的启用
   - [x] 0013. 插件的配置
   - [x] 0014. 中间件
-- 4. 分层设计
+- 分层设计
   - [x] 0017. 字段校验的分层设计
-- 5. model 的引用
+- model 的引用
   - [x] 0018. ctx.model 和 app.model
-- 6. service 的引用
+- service 的引用
   - [ ] 0020. ctx.service 和 app.service
-- 7. Egg.js 中模块的命名解析细节
+- Egg.js 中模块的命名解析细节
   - [x] 0019. Egg.js 中的 controller、service、model 模块命名解析策略

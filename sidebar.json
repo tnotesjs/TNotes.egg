@@ -1,6 +1,6 @@
 [
   {
-    "text": "1. 🚀 Quick Start",
+    "text": "🚀 Quick Start",
     "collapsed": true,
     "items": [
       {
@@ -41,13 +41,13 @@
       }
     ],
     "folderPath": [
-      "1. 🚀 Quick Start"
+      "🚀 Quick Start"
     ],
     "tocLineIndex": 0,
     "nodeId": "line:0"
   },
   {
-    "text": "2. 核心功能",
+    "text": "核心功能",
     "collapsed": true,
     "items": [
       {
@@ -64,13 +64,13 @@
       }
     ],
     "folderPath": [
-      "2. 核心功能"
+      "核心功能"
     ],
     "tocLineIndex": 7,
     "nodeId": "line:7"
   },
   {
-    "text": "3. 基础功能",
+    "text": "基础功能",
     "collapsed": true,
     "items": [
       {
@@ -123,13 +123,13 @@
       }
     ],
     "folderPath": [
-      "3. 基础功能"
+      "基础功能"
     ],
     "tocLineIndex": 10,
     "nodeId": "line:10"
   },
   {
-    "text": "4. 分层设计",
+    "text": "分层设计",
     "collapsed": true,
     "items": [
       {
@@ -140,13 +140,13 @@
       }
     ],
     "folderPath": [
-      "4. 分层设计"
+      "分层设计"
     ],
     "tocLineIndex": 19,
     "nodeId": "line:19"
   },
   {
-    "text": "5. model 的引用",
+    "text": "model 的引用",
     "collapsed": true,
     "items": [
       {
@@ -157,13 +157,13 @@
       }
     ],
     "folderPath": [
-      "5. model 的引用"
+      "model 的引用"
     ],
     "tocLineIndex": 21,
     "nodeId": "line:21"
   },
   {
-    "text": "6. service 的引用",
+    "text": "service 的引用",
     "collapsed": true,
     "items": [
       {
@@ -174,13 +174,13 @@
       }
     ],
     "folderPath": [
-      "6. service 的引用"
+      "service 的引用"
     ],
     "tocLineIndex": 23,
     "nodeId": "line:23"
   },
   {
-    "text": "7. Egg.js 中模块的命名解析细节",
+    "text": "Egg.js 中模块的命名解析细节",
     "collapsed": true,
     "items": [
       {
@@ -191,7 +191,7 @@
       }
     ],
     "folderPath": [
-      "7. Egg.js 中模块的命名解析细节"
+      "Egg.js 中模块的命名解析细节"
     ],
     "tocLineIndex": 25,
     "nodeId": "line:25"
