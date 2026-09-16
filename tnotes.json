@@ -3,7 +3,7 @@
   "name": "TNotes.egg",
   "description": "Egg.js 笔记",
   "icon": {
-    "src": "../assets/.tn-kb-icon.png"
+    "src": "https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/assets/icon--eggjs.png"
   },
   "repositoryUrl": "https://github.com/tnotesjs/TNotes.egg",
   "port": 9383,
